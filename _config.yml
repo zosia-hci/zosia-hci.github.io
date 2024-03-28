@@ -10,8 +10,8 @@
 locale                   : "en-US"
 title                    : "Zofia Marciniak"
 title_separator          : "-"
-name                     : &name "Zofia Marciniak"
-description              : &description "Master Student of Industrial Design at KAIST"
+name                     : "Zofia Marciniak"
+description              : "Master Student of Industrial Design at KAIST"
 url                      : https://zosia-hci.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zosia-hci/zosia-hci.github.io"
@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "profile-pic-300x450.jpg"
   name             : "Zosia Marciniak"
-  pronouns         : "" # example: "she/her"  
-  bio              : "MS. of Industrial Design at KAIST"
+  pronouns         : #"" # example: "she/her"  
+  bio              : "Master in Industrial Design"
   location         : "291 Daehak-ro, Yuseong-gu, Daejeon"
   employer         : "KAIST"
   uri              : # URL
