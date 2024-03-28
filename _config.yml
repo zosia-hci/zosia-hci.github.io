@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zofia Marciniak"
-title_separator          : "-"
+title                    : #"Zofia Marciniak"
+title_separator          : #"-"
 name                     : "Zofia Marciniak"
 description              : "Master Student of Industrial Design at KAIST"
 url                      : https://zosia-hci.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
