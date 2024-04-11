@@ -9,11 +9,12 @@
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src:url('../fonts/academicons.eot');
-    src:url('../fonts/academicons.eot') format('embedded-opentype'),
+    src:url('../fonts/Dongle-Light.ttf');
+    
+    /*src:url('../fonts/academicons.eot') format('embedded-opentype'),
         url('../fonts/Dongle-Light.ttf') format('truetype'),
         url('../fonts/academicons.woff') format('woff'),
-        url('../fonts/academicons.svg') format('svg');
+        url('../fonts/academicons.svg') format('svg');*/
 }
 .ai {
   font-family: 'Dongle-Light';
