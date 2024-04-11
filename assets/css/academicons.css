@@ -11,7 +11,7 @@
     font-display: block;
     src:url('../fonts/academicons.eot');
     src:url('../fonts/academicons.eot') format('embedded-opentype'),
-        url('../fonts/academicons.ttf') format('truetype'),
+        url('../fonts/Dongle-Light.ttf') format('truetype'),
         url('../fonts/academicons.woff') format('woff'),
         url('../fonts/academicons.svg') format('svg');
 }
