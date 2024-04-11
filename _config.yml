@@ -215,7 +215,6 @@ collections:
 
 # Defaults
 defaults:
-  '''
   # _posts
   - scope:
       path: ""
@@ -243,7 +242,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  '''
   # _publications
   - scope:
       path: ""
@@ -259,10 +257,9 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comment: true
-  '''
   # _talks
   - scope:
       path: ""
@@ -271,8 +268,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  '''
-  
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
