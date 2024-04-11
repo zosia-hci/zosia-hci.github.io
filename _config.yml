@@ -25,7 +25,7 @@ author:
   name             : "Zosia Marciniak"
   pronouns         : "she/they"
   bio              : "Master in Industrial Design"
-  location         : "291 Daehak-ro, Yuseong-gu, Daejeon"
+  location         : "Daejeon, South Korea"
   employer         : "KAIST"
   uri              : "https://zosia-hci.github.io"
   email            : "zofia.marciniak@kaist.ac.kr" 
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "https://twitter.com/zosiazamoyska"
+  twitter          : "zosiazamoyska"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -199,7 +199,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  fun:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -233,13 +233,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _fun
   - scope:
       path: ""
-      type: teaching
+      type: fun
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _publications
