@@ -12,12 +12,11 @@
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Dongle Light';
   font-style: normal;
   font-weight: 400;
   font-display: $fa-font-display;
-  src: url('#{$fa-font-path}/fa-regular-400.woff2') format('woff2'),
-    url('#{$fa-font-path}/fa-regular-400.ttf') format('truetype');
+  src: url('#{$fa-font-path}/Dongle-Light.ttf');
 }
 
 .far,
