@@ -5,7 +5,7 @@
  *  Licenses - Font: SIL OFL 1.1, CSS: MIT License
  */
 @font-face {
-    font-family: 'Academicons';
+    font-family: 'Dongle-Light';
     font-style: normal;
     font-weight: 400;
     font-display: block;
@@ -16,7 +16,7 @@
         url('../fonts/academicons.svg') format('svg');
 }
 .ai {
-  font-family: 'Academicons';
+  font-family: 'Dongle-Light';
   font-weight: 400;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
