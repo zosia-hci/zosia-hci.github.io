@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "About Zofia (Zosia) Marciniak"
+title: "Zofia (Zosia) Marciniak"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Zosia Marciniak, Master Student -- Expected Graduation Date: August, 2025
+Zofia (Zosia) Marciniak, Master Student @[Make Lab](https://make.kaist.ac.kr/) (advised by prof Andrea Bianchi)
 Industrial Design, Korea Advanced Institute of Science and Technology (KAIST)
 
 
