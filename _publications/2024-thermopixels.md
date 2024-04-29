@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2024-thermopixels
 date: 2024-05-10
 venue: 'CHI'
+excerpt: ""
 paperurl: '[to be updated]'
 citation: 'Kongpyung (Justin) Moon, Zofia Marciniak, Ryo Suzuki, and Andrea Bianchi (CHI 2024)'
 ---

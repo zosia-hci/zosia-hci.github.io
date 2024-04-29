@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2022-guidering
 date: 2022-10-01
 venue: 'VRST'
+excerpt: ""
 paperurl: 'https://dl.acm.org/doi/10.1145/3562939.3565626'
 citation: 'Zofia Marciniak, Seo Young Oh, and Sang Ho Yoon (VRST 2022)'
 ---

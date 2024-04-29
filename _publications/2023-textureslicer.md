@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2023-textureslicer
 date: 2023-02-01
 venue: 'Korea HCI'
+excerpt: ""
 paperurl: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229626'
 citation: 'Zofia Marciniak, Kongpyung Moon, and Andrea Bianchi (Korea HCI 2023)'
 ---
