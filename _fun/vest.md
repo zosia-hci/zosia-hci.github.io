@@ -11,5 +11,4 @@ location: ""
   <img src="images/vest1.jpg" alt="Vest" width="250" >
 </a>
 
-<img src="images/vest1.jpg" alt="Vest (On me)" width="250">
 <img src="images/vest2.png" alt="Vest (Hanging)" width="250">

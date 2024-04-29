@@ -11,4 +11,3 @@ location: ""
   <img src="images/color_set.jpg" alt="Bonnet and Wrist Warmers" width="250" >
 </a>
 
-<img src="images/color_set.jpg" alt="Bonnet and Wrist Warmers" width="250" >
