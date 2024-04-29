@@ -26,6 +26,7 @@ Digital Fabrication, Human-Computer Interaction
 ### International Publications
 
 #### 2024
+![image](images\thermopixels.png)
 - Kongpyung (Justin) Moon, **Zofia Marciniak**, Ryo Suzuki, and Andrea Bianchi. 3D Printing Locally Activated Visual-Displays Embedded in 3D Objects via Electrically Conductive and Thermochromic Materials. In CHI Conference on Human Factors in Computing Systems 
 
 #### 2022
