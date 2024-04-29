@@ -11,35 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. Industrial Design, KAIST, ongoing
+* B.S. Industrial Design and Computer Science, KAIST, 2023
+
+Research Interest
+======
+* Digital Fabrication, Computational Design, Human-Computer Interaction
+
+Research experience
+======
+* September, 2022 - August, 2023 · 1 year: Undergraduate Research Intern @[Make Lab](https://make.kaist.ac.kr/) 
+  *  Implemented a slicing software for computational texture generation for 3D printing
+
+* January 2022 - June, 2022 · 6 months: Undergraduate Research Intern @[HCI Tech Lab](https://hcitech.org/) 
+  * Designed an electromagnetic haptic interface for robust interaction
+
+* July 2020 - December, 2020 · 6 months: Undergraduate Research Intern @[CDSN Lab](http://cds.kaist.ac.kr/)
+  * Researched human mobility using LTE and weather data
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* June, 2022 - Sept, 2022 · 4 mos: Software Engineer Intern @[NoMagic](https://nomagic.ai/)
+  * Implemented a feature for issue-handling in a Pick&Place robot solution using python
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July, 2021 - Sept, 2021 · 3 mos: STEP Intern @Google
+  * Implemented a policy translation tool in Go
   
-Skills
+Skills & Tools
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* C++
+* Python
+* Arduino IDE
+* Rhino Grasshopper
 
 Publications
 ======
@@ -47,18 +50,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Awards
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Fun
-======
-  <ul>{% for post in site.fun reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* [Evergrow: Investment Education Service](https://ifdesign.com/en/winner-ranking/project/evergrow-investment-education-service/618273) -- **iF Design Award 2024** -- Professional Concept, Service Design Concept (JaeRyung Chung, Jamie Ashley Dee, Minseo Bang, Zofia Marciniak, Eunseo Oh, Hyeonjeong Im, Sunok Lee, Sangsu Lee)
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Member of KAIST International Student Association (2022-2024)
+* Leadership Excellence Award (2023)
