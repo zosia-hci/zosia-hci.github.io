@@ -3,7 +3,7 @@ title: "Guide Ring: Bidirectional Finger-worn Haptic Actuator for Rich Haptic Fe
 collection: publications
 permalink: /publication/2022-guidering
 date: 2022-10-01
-venue: 'VRST 2022'
+venue: 'VRST'
 paperurl: 'https://dl.acm.org/doi/10.1145/3562939.3565626'
 citation: 'Zofia Marciniak, Seo Young Oh, and Sang Ho Yoon'
 ---

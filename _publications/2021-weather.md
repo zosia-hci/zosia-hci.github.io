@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2021-weather
 paperurl: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10530300'
 date: 2021-01-27
-venue: 'Korea HCI 2021'
+venue: 'Korea HCI'
 citation: 'Zofia Marciniak, Sumin Han, and Dongman Lee'
 ---
 

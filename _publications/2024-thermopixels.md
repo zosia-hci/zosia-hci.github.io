@@ -3,7 +3,7 @@ title: "3D Printing Locally Activated Visual-Displays Embedded in 3D Objects via
 collection: publications
 permalink: /publication/2024-thermopixels
 date: 2024-05-10
-venue: 'CHI 2024'
+venue: 'CHI'
 paperurl: '[to be updated]'
 citation: 'Kongpyung (Justin) Moon, Zofia Marciniak, Ryo Suzuki, and Andrea Bianchi'
 ---
