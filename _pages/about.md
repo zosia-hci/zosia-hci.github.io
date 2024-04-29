@@ -8,17 +8,16 @@ redirect_from:
 ---
 
 Zofia (Zosia) Marciniak -- Master Student @[Make Lab](https://make.kaist.ac.kr/) (advised by prof Andrea Bianchi)
-
 Industrial Design, Korea Advanced Institute of Science and Technology (KAIST)
 
 
 ## Education
 
-*   19'-23' Double Major in Industrial Design and Computer Science, Bachelor Degree, KAIST
 *   23'-ongoing Industrial Design, Master Degree, KAIST
+*   19'-23' Double Major in Industrial Design and Computer Science, Bachelor Degree, KAIST
 
 ## Projects
-![image](images\thermopixels.png = 250px)(https://zosia-hci.github.io/publication/2024-thermopixels)
+![image](images\thermopixels.png =250x)(https://zosia-hci.github.io/publication/2024-thermopixels)
 
 
 ## Research Interests
