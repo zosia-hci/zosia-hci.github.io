@@ -17,7 +17,7 @@ Industrial Design, Korea Advanced Institute of Science and Technology (KAIST)
 *   19'-23' Double Major in Industrial Design and Computer Science, Bachelor Degree, KAIST
 
 ## Projects
-![image](images\thermopixels.png =250x)(https://zosia-hci.github.io/publication/2024-thermopixels)
+![image](images\thermopixels.png)(https://zosia-hci.github.io/publication/2024-thermopixels)
 
 
 ## Research Interests
