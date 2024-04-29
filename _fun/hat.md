@@ -3,7 +3,7 @@ title: "Crochet Pink Hat "
 collection: fun
 type: "Crochet"
 permalink: /fun/hat
-venue: ""
+venue: "Handmade"
 date: 2022-01-01
 location: ""
 ---

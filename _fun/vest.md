@@ -3,7 +3,7 @@ title: "Crochet Ombree Vest"
 collection: fun
 type: "Crochet"
 permalink: /fun/vest
-venue: ""
+venue: "Handmade"
 date: 2023-01-01
 location: ""
 ---
