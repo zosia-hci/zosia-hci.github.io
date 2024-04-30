@@ -12,7 +12,9 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% if post.collection != 'fun' %}
+{% if post.collection == 'fun' %}
+  { post.excerpt | markdownify }
+{% else %}
   <div class="{{ include.type | default: "list" }}__item">
     
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
