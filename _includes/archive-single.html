@@ -13,7 +13,7 @@
 {% endif %}
 
 {% if post.collection == 'fun' %}
-  {{ post.excerpt | markdownify }}
+  {{ markdownify }}
 {% else %}
   <div class="{{ include.type | default: "list" }}__item">
     
