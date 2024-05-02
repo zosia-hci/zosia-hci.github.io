@@ -21,7 +21,7 @@ Interested in Human-Computer Interaction (HCI), focusing on digital fabrication.
   <img src="images/on_blog_square.png" alt="OnBlog" style="width: 100%; height: auto;">
 </a> 
 <a href="https://zosia-hci.github.io/publication/2022-guidering" style="display: inline-block; width: 250px;">
-  <img src="images/guidering.GIF" alt="GuideRing"style="width: 100%; height: auto;">
+  <img src="images/guidering.GIF" alt="GuideRing" style="width: 100%; height: auto;">
 </a> 
 <br>
 <a href="https://zosia-hci.github.io/portfolio/evergrow" style="display: inline-block; width: 250px;">
