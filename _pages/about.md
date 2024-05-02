@@ -7,8 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-Zofia (Zosia) Marciniak -- Master Student @[Make Lab](https://make.kaist.ac.kr/) (advised by prof Andrea Bianchi)
+I'm a Master Student @[Make Lab](https://make.kaist.ac.kr/) (advised by prof Andrea Bianchi)
 Industrial Design, Korea Advanced Institute of Science and Technology (KAIST)
+
+Interested in Human-Computer Interaction (HCI), focusing on digital fabrication. 
 
 
 ## Projects
