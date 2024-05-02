@@ -4,6 +4,7 @@ excerpt: "<img src='/images/evergrow_1.png'>"
 collection: portfolio
 ---
 
+<img src='images/evergrow_1.png'>
 Evergrow is a FinTech app that empowers beginners to participate in stock management and investment, fostering self growth in their financial literacy. It achieves this through a unique representation of a user's portfolio as a forest, enhancing understanding of stocks and reducing frustration from direct exposure to price fluctuations. Over time, the trees representing stocks flourish with sustained investments, encouraging thoughtful decisions and a commitment to long-term investments. The app integrates Hazel, a financial fairy advisor, who provides insights on fiscal choices, cultivating a healthier investment atmosphere for newcomers.
 
 My part of the project included conducting the background research, survey study and interview analysis.   
