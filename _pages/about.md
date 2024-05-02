@@ -15,6 +15,13 @@ Industrial Design, Korea Advanced Institute of Science and Technology (KAIST)
 <a href="https://zosia-hci.github.io/publication/2024-thermopixels">
   <img src="images/thermopixels.png" alt="ThermoPixels" width="250" >
 </a>
+<a href="https://zosia-hci.github.io/portfolio/on_blog">
+  <img src="images/on_blog_square.png" alt="OnBlog" width="250" >
+</a> 
 <a href="https://zosia-hci.github.io/publication/2022-guidering">
   <img src="images/guidering.GIF" alt="GuideRing" width="250" >
 </a> 
+<a href="https://zosia-hci.github.io/portfolio/evergrow">
+  <img src="images/evergrow.png" alt="Evergrow" width="250" >
+</a> 
+
