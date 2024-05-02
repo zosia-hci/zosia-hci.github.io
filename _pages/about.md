@@ -22,6 +22,6 @@ Industrial Design, Korea Advanced Institute of Science and Technology (KAIST)
   <img src="images/guidering.GIF" alt="GuideRing" width="250" >
 </a> 
 <a href="https://zosia-hci.github.io/portfolio/evergrow">
-  <img src="images/evergrow.png" alt="Evergrow" width="250" >
+  <img src="images/evergrow_square.png" alt="Evergrow" width="250" >
 </a> 
 
