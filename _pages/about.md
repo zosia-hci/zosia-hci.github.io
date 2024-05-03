@@ -27,4 +27,8 @@ Interested in Human-Computer Interaction (HCI), focusing on digital fabrication.
 <a href="https://zosia-hci.github.io/portfolio/evergrow">
   <img src="images/evergrow_square.png" alt="Evergrow" width="250" >
 </a> 
+<a href="https://zosia-hci.github.io/portfolio/ear_for_blocks">
+  <img src="images/blocks_square.png" alt="Ear for blocks" width="250" >
+</a> 
+
 
