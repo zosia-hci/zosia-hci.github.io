@@ -29,4 +29,4 @@ Guiding user's physical movements during mobile device interaction; VR gaming en
 <img src='images/guidering_3.png'>
 <img src='images/guidering_4.png'>
 
-<video src="images/video.mov" width="320" height="240" controls></video>
+<video src="images/video.mov" width="100%" height="100%" controls></video>
