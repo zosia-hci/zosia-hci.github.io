@@ -31,7 +31,7 @@ Interested in Human-Computer Interaction (HCI), focusing on digital fabrication.
   <img src="images/blocks_square.png" alt="Ear for blocks" width="250" >
 </a> 
 <a href="https://zosia-hci.github.io/portfolio/closet">
-  <img src="images/closet_square.png" alt="Out of the closet" width="250" >
+  <img src="images/closet_square.jpg" alt="Out of the closet" width="250" >
 </a> 
 
 
