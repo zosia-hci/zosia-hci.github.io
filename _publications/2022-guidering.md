@@ -22,11 +22,11 @@ Device was made by wrapping copper wire around a 3D printed ring prototype. It c
 
 # Result
 Oval shape is optimal for strong interaction and smaller size. A haptic actuator offers with three interaction types: physical force feedback, moving patterns, and vibration.
+<img src='images/guidering_3.png'>
 
 # Application
 Guiding user's physical movements during mobile device interaction; VR gaming enhancement; haptic feedback on gesture-based copying and pasting on mobile devices
 
-<img src='images/guidering_3.png'>
 <img src='images/guidering_4.png'>
 
 <video src="images/video.mov" width="100%" height="100%" controls></video>
