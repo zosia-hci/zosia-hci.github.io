@@ -15,15 +15,6 @@
         url('../fonts/academicons.svg') format('svg');*/
 }
 
-@font-face {
-  font-family: 'Wobbly';
-  src: url('.../fonts/Wobbly.woff2') format('woff2'),
-      url('.../fonts/Wobbly.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 .ai {
   font-family: 'Academicons';
   font-weight: 400;
