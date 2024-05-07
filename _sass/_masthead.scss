@@ -36,6 +36,17 @@
   }
 }
 
+@font-face {
+  font-family: 'Wobbly';
+  src: url('assets/fonts/Wobbly.woff2') format('woff2'),
+      url('assets/fonts/Wobbly.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 .masthead__menu {
 
   ul {
@@ -50,6 +61,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-family: Wobbly;
 
   &--lg {
     padding-right: 2em;
