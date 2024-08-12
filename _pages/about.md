@@ -14,6 +14,9 @@ Interested in Human-Computer Interaction (HCI), focusing on digital fabrication.
 
 
 ## Projects
+<a href="https://zosia-hci.github.io/publication/2024-textureslicer" style="display: inline-block; width: 250px;">
+  <img src="images/textureslicer.jpg" alt="TextureSlicer" style="width: 100%; height: auto;" >
+</a>
 <a href="https://zosia-hci.github.io/publication/2024-thermopixels" style="display: inline-block; width: 250px;">
   <img src="images/thermopixels.png" alt="ThermoPixels" style="width: 100%; height: auto;" >
 </a>
