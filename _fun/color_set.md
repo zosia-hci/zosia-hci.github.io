@@ -10,4 +10,5 @@ location: ""
 <p>
 </p>
 
-<img src="images/color_set.png" alt="Bonnet and Wrist Warmers" width="250" >
+<img src="images/color_set.png" alt="Bonnet and Wrist Warmers" width="400" >
+<img src="images/color_set2.jpg" alt="Bonnet, Wrist Warmers and a Necktie" width="400" >

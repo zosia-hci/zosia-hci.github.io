@@ -9,5 +9,5 @@ location: ""
 ---
 <p></p>
 
-<img src="images/hat2.jpg" alt="Hat" width="250" >
-<img src="images/hat3.jpg" alt="Hat (Back)" width="250">
+<img src="images/hat2.jpg" alt="Hat" width="400" >
+<img src="images/hat3.jpg" alt="Hat (Back)" width="400">
