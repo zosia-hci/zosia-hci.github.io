@@ -11,4 +11,4 @@ location: ""
 </p>
 
 <img src="images/color_vest.jpg" alt="Colorful vest" width="400" >
-<img src="images/color_vest2.jpg" alt="Colorful vest, back" width="400" >
+<img src="images/color_vest1.jpg" alt="Colorful vest, back" width="400" >
