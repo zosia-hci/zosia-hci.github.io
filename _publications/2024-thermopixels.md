@@ -6,6 +6,6 @@ date: 2024-05-10
 venue: 'CHI'
 excerpt: ""
 paperurl: 'https://dl.acm.org/doi/10.1145/3613904.3642537'
-citation: 'Kongpyung (Justin) Moon, Zofia Marciniak, Ryo Suzuki, and Andrea Bianchi (CHI 2024)'
+citation: <a>Kongpyung (Justin) Moon, __Zofia Marciniak__, Ryo Suzuki, and Andrea Bianchi (CHI 2024)<a>
 ---
 3D printed displays promise to create unique visual interfaces for physical objects. However, current methods for creating 3D printed displays either require specialized post-fabrication processes (e.g., electroluminescence spray and silicon casting) or function as passive elements that simply react to environmental factors (e.g., body and air temperature). These passive displays offer limited control over when, where, and how the colors change. In this paper, we introduce ThermoPixels, a method for designing and 3D printing actively controlled and visually rich thermochromic displays that can be embedded in arbitrary geometries. We investigate the color-changing and thermal properties of thermochromic and conductive filaments. Based on these insights, we designed ThermoPixels and an accompanying software tool that allows embedding ThermoPixels in arbitrary 3D geometries, creating displays of various shapes and sizes (flat, curved, or matrix displays) or displays that embed textures, multiple colors, or that are flexible.
