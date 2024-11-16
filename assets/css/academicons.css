@@ -23,6 +23,24 @@
 }
 
 @font-face {
+  font-family: 'Dongle-Light';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src:url('../fonts/Dongle-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'wobbly';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src:url('../fonts/wobbly.ttf') format('truetype');
+}
+
+
+
+@font-face {
   font-family: 'JosefinSans';
   font-style: normal;
   font-weight: 400;
