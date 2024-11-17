@@ -56,13 +56,6 @@ redirect_from:
 <br>
 <span style="font-family: Chewy; font-size: 1.5em;">Graphics</span>
 <br>
-
-<div class="about-box">
-  <a href="https://zosia-hci.github.io/portfolio/9-2020-closet">
-    <img src="images/closet_square.jpg" alt="Out of the closet">
-  </a> 
-  <div class="centered">#LGBTQ+ #drawing</div>
-</div>
 <div class="about-box">
   <a href="https://zosia-hci.github.io/portfolio/9-2020-closet">
     <img src="images/closet_square.jpg" alt="Out of the closet">
