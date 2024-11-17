@@ -17,6 +17,7 @@
 }
 
 .page {
+  
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -49,6 +50,7 @@
 }
 
 .page__content {
+  padding-left: 10px;
 
   h2 {
     padding-bottom: 0.5em;
@@ -74,7 +76,12 @@
 
   a {
     text-decoration: underline;
+    width: 250px;
+    display: inline-block;
+    img {
+      margin-bottom: 5px;
 
+    }
     &:hover {
       text-decoration: underline;
 
