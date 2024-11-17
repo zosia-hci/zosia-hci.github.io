@@ -9,6 +9,9 @@
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
+  margin-right: 10px;
+  max-width: 225px;
+
 
   @include clearfix();
   margin-bottom: 1em;
@@ -40,12 +43,16 @@
 
   h3, h4 {
     font-size: $type-size-5;
+
   }
 
   p, li {
     font-family: $sans-serif;
     font-size: $type-size-6;
     line-height: 1.5;
+    width: auto;
+
+
   }
 
   img {

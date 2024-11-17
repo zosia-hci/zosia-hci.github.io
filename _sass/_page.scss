@@ -6,8 +6,8 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 0em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -78,7 +78,6 @@
     background-color: #472E56;
     display: inline-block;
     border-radius: 10px;
-    margin: 5px;
     a {
       img {
         width: 250px;
