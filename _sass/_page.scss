@@ -73,22 +73,40 @@
       }
     }
   }
-
-  a {
-    text-decoration: underline;
-    width: 250px;
+  .about-box {
+    position: relative;
+    text-align: center;
+    background-color: #472E56;
     display: inline-block;
-    img {
-      margin-bottom: 5px;
+    border-radius: 10px;
 
-    }
-    &:hover {
-      text-decoration: underline;
-
+    a {
       img {
-        box-shadow: 0 0 10px rgba(#000000, 0.25);
+        width: 250px;
+        border-radius: 10px;
+
       }
     }
+    .centered {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      color: white;
+      font-family: Chewy;
+
+      opacity: 0;
+    }
+    &:hover{
+      .centered{
+        opacity: 1;
+      }
+      img {
+        opacity: 0.3;
+      }
+      box-shadow: 0 0 10px rgba(#000000, 0.25);  
+
+    }
+    
   }
 
   dt {
