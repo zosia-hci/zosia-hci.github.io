@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<span style="font-family: OpenSans; font-size: 1em;">My name is Zofia, although I prefer to be called Zosia (pronounced Zoh-see-ah). I am a second year master student at KAIST, majoring in Industrial Design. I research Human-Computer Interaction (HCI) @[Make Lab](https://make.kaist.ac.kr/) under the guidance of professor Andrea Bianchi. My interest is specifically in digital fabrication, with previous projects focusing on 3D printing. I am interested in exploring opportunities for computational fabrication for crafters, specifically crocheters. 🧶</span>
+<!-- <span style="font-family: OpenSans; font-size: 1em;">My name is Zofia, although I prefer to be called Zosia (pronounced Zoh-see-ah). I am a second year master student at KAIST, majoring in Industrial Design. I research Human-Computer Interaction (HCI) @[Make Lab](https://make.kaist.ac.kr/) under the guidance of professor Andrea Bianchi. My interest is specifically in digital fabrication, with previous projects focusing on 3D printing. I am interested in exploring opportunities for computational fabrication for crafters, specifically crocheters. 🧶</span> -->
 
 <span style="font-family: Chewy; font-size: 1.5em;">Research</span>
 <br>
