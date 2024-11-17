@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src:url('../fonts/Chewy-Regular.ttf') format('truetype');
+  src:url('../fonts/Bonbance-BoldCondensed.woff') format('woff');
 }
 
 @font-face {
@@ -57,19 +57,11 @@
 }
 
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'Snap-ItMono';
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src:url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'OpenSans-Italic';
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src:url('../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+  src:url('../fonts/Snap-itmono-1.6-Regular.woff') format('woff');
 }
 
 .ai {

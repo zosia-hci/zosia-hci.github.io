@@ -75,13 +75,17 @@
   .about-box {
     position: relative;
     text-align: center;
-    background-color: #472E56;
     display: inline-block;
-    border-radius: 10px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    background-color: #472E56;
+
     a {
       img {
         width: 250px;
+        height: 250px;
         border-radius: 10px;
+        object-fit: cover;
 
       }
     }
@@ -91,15 +95,18 @@
       left: 16px;
       color: white;
       font-family: Chewy;
-
       opacity: 0;
     }
     &:hover{
       .centered{
         opacity: 1;
+        transition: opacity 0.3s ease;
+
       }
       img {
         opacity: 0.3;
+        transition: opacity 0.3s ease;
+
       }
       box-shadow: 0 0 10px rgba(#000000, 0.25);  
 

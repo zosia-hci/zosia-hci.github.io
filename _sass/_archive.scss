@@ -1,11 +1,85 @@
 /* ==========================================================================
    ARCHIVE
    ========================================================================== */
-img {
-    border-radius: 10px;
-  }
+
 .archive {
   margin-bottom: 2em;
+  .container a {
+    text-decoration: none;
+  }
+  .container a:hover{
+    text-decoration: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+    gap: 10px;             /* Spacing between rows */
+    width: 100%;           /* Full container width */
+    box-sizing: border-box;
+  }
+  
+  .about-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Image takes 1 column; text takes 2 columns */
+    grid-template-rows: 1fr;       /* Single row */
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;           /* Rounded corners */
+    overflow: hidden;
+    border: 3px solid #472E56;        /* Border around the entire row */
+  }
+
+  /* Image section styling */
+  .row-image {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row-image img {
+    width: 100%;          /* Image fills its container */
+    height: auto;
+    object-fit: cover;
+    border-right: 2px solid #ccc; /* Border to separate from text */
+  }
+  .about-row:hover {
+    .row-image, .row-text {
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+    }
+  }
+  /* Text section styling */
+  .row-text {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .row-text h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #472E56; /* Accent color for headings */
+  }
+
+  .row-text p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /* Adjust hover effect for rows */
+  .about-row:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+  }
+    
 
   @include breakpoint($medium) {
     @include span(12 of 12);

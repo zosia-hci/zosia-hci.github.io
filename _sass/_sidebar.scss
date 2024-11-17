@@ -98,7 +98,7 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      border: 2px solid #EC3633;
+      border: 2px solid #472E56;
     }
   }
 }
@@ -149,7 +149,6 @@
 
 .author__bio {
   margin: 0;
-
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
