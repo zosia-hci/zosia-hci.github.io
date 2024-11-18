@@ -4,6 +4,24 @@
 
 .archive {
   margin-bottom: 2em;
+  .container2 .about-box {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 12px;
+
+    a {
+      img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        object-fit: cover;
+
+      }
+    }
+  }
   .container a {
     text-decoration: none;
   }
