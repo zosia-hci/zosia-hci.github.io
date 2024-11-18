@@ -11,58 +11,58 @@ redirect_from:
 <br>
 <div class="container">
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/publication/2024-textureslicer">
+    <a href="/publication/2024-textureslicer">
       <img src="images/textureslicer.png" alt="TextureSlicer">
     </a>
     <div class="centered">#3D printing #texture</div>
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/publication/2024-thermopixels">
+    <a href="/publication/2024-thermopixels">
       <img src="images/thermopixels.png" alt="ThermoPixels" >
     </a>
     <div class="centered">#3D printing #display</div>
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/publication/2022-guidering">
+    <a href="/publication/2022-guidering">
       <img src="images/guidering.GIF" alt="GuideRing">
     </a>
     <div class="centered">#haptics #feedback</div>
 
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/portfolio/6-2023-on_blog">
+    <a href="/portfolio/6-2023-on_blog">
       <img src="images/on_blog_square.png" alt="OnBlog">
     </a>
     <div class="centered">#UX design</div>
 
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/portfolio/7-2022-evergrow">
+    <a href="/portfolio/7-2022-evergrow">
       <img src="images/evergrow_square.png" alt="Evergrow">
     </a> 
     <div class="centered">#UX design #FinTech #IF Award</div>
 
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/portfolio/8-2022-blocks">
+    <a href="/portfolio/8-2022-blocks">
       <img src="images/blocks_square.png" alt="Ear for blocks">
     </a> 
     <div class="centered">#interactive #product</div>
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/portfolio/9-2024-hanging">
+    <a href="/portfolio/9-2024-hanging">
       <img src="images/hanging-in-there_square.png" alt="Are you hanging in there?">
     </a> 
     <div class="centered">#poster #drawing</div>
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/portfolio/4-2024-textureslicer">
+    <a href="/portfolio/4-2024-textureslicer">
       <img src="images/Texture_Slicer_poster.jpg" alt="TextureSlicer Poster">
     </a> 
     <div class="centered">#poster #texture</div>
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/portfolio/9-2020-closet">
+    <a href="/portfolio/9-2020-closet">
       <img src="images/closet_square.jpg" alt="Out of the closet">
     </a> 
     <div class="centered">#poster #drawing</div>
