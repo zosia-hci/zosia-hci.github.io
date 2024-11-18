@@ -50,13 +50,13 @@ redirect_from:
     <div class="centered">#interactive #product</div>
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/portfolio/9-2020-closet">
+    <a href="https://zosia-hci.github.io/portfolio/4-2024-textureslicer">
       <img src="images/Texture_Slicer_poster.jpg" alt="TextureSlicer Poster">
     </a> 
     <div class="centered">#poster #texture</div>
   </div>
   <div class="about-box">
-    <a href="https://zosia-hci.github.io/portfolio/04-2024-textureslicer">
+    <a href="https://zosia-hci.github.io/portfolio/9-2020-closet">
       <img src="images/closet_square.jpg" alt="Out of the closet">
     </a> 
     <div class="centered">#LGBTQ+ #drawing</div>
