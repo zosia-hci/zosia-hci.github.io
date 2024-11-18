@@ -40,7 +40,7 @@ redirect_from:
     <a href="https://zosia-hci.github.io/portfolio/7-2022-evergrow">
       <img src="images/evergrow_square.png" alt="Evergrow">
     </a> 
-    <div class="centered">#UX design #UX/UI #IF Award</div>
+    <div class="centered">#UX design #FinTech #IF Award</div>
 
   </div>
   <div class="about-box">
