@@ -30,6 +30,7 @@ We conducted an in-depth interview with Naver Content Creators. We wanted to exp
 We took a closer look at <b>content creation</b> that happens on Naver platforms, and what drives or stops <b>GenZ</b> from doing it. From here, we we were able to notice a pain points related to old-fashioned style of Naver content creation, competition from other platforms used by young generation. From here, we took a next step in our research: understanding each content creation platform of Naver one-by-one, and interviewing content creators using different Naver platforms.
 
 ## Studying the Creators
+
 We looked for GenZ content creator’s characteristics, motivation for using different social media platforms and currently offered tools from Naver. We wanted to answer following questions:
 * <b>Why does GenZ makes content?</b><br>
 | What drives GenZ for content creation? What motivates them?
@@ -40,13 +41,14 @@ We looked for GenZ content creator’s characteristics, motivation for using dif
 <img src='images/genz.png'>
 
 ## Services for creators in Naver
+
 Naver offers wide scope of different platforms, from text-based blogging, video-driven Naver TV, or webtoons. We study the support each platform gives to the creators, and what tools it provides.
 <img src='images/platform_research.png'>
 
 ## Result
+
 Based on the primary and secondary research, we were able to organize the characteristics of Gen Z creators, reasons for creating content and most commonly used platforms.
 <img src='images/secondary_result.png'>
-
 
 # Persona and Journey Map
 The research helped us narrow a persona of a <b>Gen Z Creator</b>. The interviews helped us create a step-by-step journey of what is like to become a Naver creator, from novice stage to THE infleuncer. 
@@ -60,8 +62,7 @@ The research helped us narrow a persona of a <b>Gen Z Creator</b>. The interview
 # Common Features Found in Creator Journey
 
 To narrow down the problem, we looked at common features between different steps of journey to become influencers. Based on that, we came out with eight main problems.
-<img src='images/problems.png'>
-
+<img src='images/problems.jpg'>
 
 # VIP model
 <img src='images/vip1.png'>
@@ -69,7 +70,7 @@ To narrow down the problem, we looked at common features between different steps
 <img src='images/vip3.png'>
 
 # Solution Direction
-We finally settled on the best solution for the creators: Giving a Sense of Accomplishment.
+We finally settled on the best solution for the creators: <b>Giving a Sense of Accomplishment</b>.
 
 The question is, when does a creator feel a sense of accomplishement? Within our previously done research, we found two answers:
 * By communicating with others
