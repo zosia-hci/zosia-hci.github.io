@@ -6,7 +6,7 @@ date: 2024-05-31
 venue: 'AODR'
 excerpt: ""
 paperurl: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11791232'
-citation: 'Zofia Marciniak, Kongpyung Moon, and Andrea Bianchi (AODR, vol. 150)'
+citation: <b>Zofia Marciniak</b>, Kongpyung Moon, and Andrea Bianchi (AODR, vol. 150)
 ---
 **Background**  Prior  methods  for  applying  auto-generated  textures  on  a  3D  model  involve  the  construction of geometric feature layers on the top of the model surface. These geometries form a textural pattern that is effectively fused and inseparable from the underlying object. However, this interconnection makes it challenging to facilitate follow-up adjustments of the 3D model during the design process without necessitating the remodeling of parts, leading to a cumbersome process for designers and engineers.  
 **Methods**  In this paper, we present Texture-Slicer , an innovative approach that addresses this issue by  applying  the  texture  patterns  not  during  modeling,  but  instead  during  the  slicing  process  conducted  before 3D printing. This means that the 3D model remains unchanged and that a tunable texture pattern is  achieved  by  injecting  modifications  of  the  G-code  just  before  the  printing  process.  Furthermore,  Texture-Slicer   allows  users  to  control  the  level  of  roughness  with  the  texture  parameters  (wavelength,  amplitude,  and  vertical  spacing),  supporting  the  creation  of  numerous  custom  textures  for  the  same  underlying geometry.    
