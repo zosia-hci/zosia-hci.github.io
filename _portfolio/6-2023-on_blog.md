@@ -5,7 +5,7 @@ collection: portfolio
 ---
 <img src='images/on_blog_1.png'>
 
-# Solution
+# TL;DR
 
 Current creators on Naver platform have a lack of sense of accomplishment. With our solution, we want to strengthen the creators identity, create a platform for building relationships with other creators, and allow creators to show their indentity in the process.
 
