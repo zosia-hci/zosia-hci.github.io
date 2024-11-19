@@ -14,19 +14,26 @@ redirect_from:
     <a href="/publication/2024-textureslicer">
       <img src="images/textureslicer.png" alt="TextureSlicer">
     </a>
-    <div class="centered">#3D printing #texture</div>
+    <div class="centered">#research #fabrication</div>
   </div>
   <div class="about-box">
     <a href="/publication/2024-thermopixels">
       <img src="images/thermopixels.png" alt="ThermoPixels" >
     </a>
-    <div class="centered">#3D printing #display</div>
+    <div class="centered">#research #fabrication</div>
   </div>
   <div class="about-box">
     <a href="/publication/2022-guidering">
       <img src="images/guidering.GIF" alt="GuideRing">
     </a>
-    <div class="centered">#haptics #feedback</div>
+    <div class="centered">#research #haptics</div>
+  </div>
+
+  <div class="about-box">
+    <a href="/portfolio/6-2024-alfresco">
+      <img src="images/alfresco-square.png" alt="Al Fresco">
+    </a>
+    <div class="centered">#design #product</div>
 
   </div>
   <div class="about-box">
@@ -34,7 +41,6 @@ redirect_from:
       <img src="images/on_blog_square.png" alt="OnBlog">
     </a>
     <div class="centered">#UX design</div>
-
   </div>
   <div class="about-box">
     <a href="/portfolio/7-2022-evergrow">
