@@ -33,7 +33,7 @@ redirect_from:
     <a href="/portfolio/6-2024-alfresco">
       <img src="images/alfresco-square.png" alt="Al Fresco">
     </a>
-    <div class="centered">#design #product</div>
+    <div class="centered">#product #design</div>
 
   </div>
   <div class="about-box">
