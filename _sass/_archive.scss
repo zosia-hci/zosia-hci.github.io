@@ -35,26 +35,32 @@
     width: 100%;           /* Full container width */
     box-sizing: border-box;
   }
-  
+  .a {
+    background-color: white;
+  }
   .about-row {
+    background-color: rgba(#fff, 0);
+
     display: grid;
     grid-template-columns: 1fr 2fr; /* Image takes 1 column; text takes 2 columns */
     grid-template-rows: 1fr;       /* Single row */
     align-items: center;
-    background-color: white;
     border-radius: 10px;           /* Rounded corners */
     overflow: hidden;
     border: 3px solid #472E56;        /* Border around the entire row */
+    transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s, background-color ease-in-out 0.3s;
+
   }
   .about-row2 {
     display: grid;
     grid-template-columns: 2fr 1fr; /* Image takes 1 column; text takes 2 columns */
     grid-template-rows: 1fr;       /* Single row */
     align-items: center;
-    background-color: white;
+    background-color: #F6EDDE;
     border-radius: 10px;           /* Rounded corners */
     overflow: hidden;
     border: 3px solid #472E56;        /* Border around the entire row */
+    transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
   }
 
 
@@ -70,19 +76,30 @@
 
   .row-image img {
     width: 100%;          /* Image fills its container */
+    background-color: white;
     height: auto;
     object-fit: cover;
     border-right: 2px solid #ccc; /* Border to separate from text */
   }
   .about-row:hover, .about-row2:hover {
     .row-image, .row-text {
-    opacity: 0.3;
-    transition: opacity 0.3s ease;
+    background-color: rgba(#fff, 0.3);
+    transition: background-color 0.3s ease-in-out;
     }
   }
+  .about-row2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    transition: transform ease-in-out 0.3s;
+    
+  }
+  .about-row2:hover:after {
+    transform: scale(1.0);
+    transition: transform ease-in-out 0.3s;
+  }
+  
   /* Text section styling */
   .row-text {
-
     padding: 20px;
     font-family: Snap-ItMono;
     color: #333;
@@ -109,7 +126,13 @@
   /* Adjust hover effect for rows */
   .about-row:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    transition: transform ease-in-out 0.3s;
     
+  }
+  .about-row:hover:after {
+    transform: scale(1.0);
+    transition: transform ease-in-out 0.3s;
   }
     
 
