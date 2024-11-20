@@ -57,7 +57,6 @@
     grid-template-columns: 2fr 1fr; /* Image takes 1 column; text takes 2 columns */
     grid-template-rows: 1fr;       /* Single row */
     align-items: center;
-    background-color: #F6EDDE;
     border-radius: 10px;           /* Rounded corners */
     overflow: hidden;
     border: 3px solid #472E56;        /* Border around the entire row */
@@ -76,7 +75,7 @@
     grid-template-columns: 1fr; /* Image takes 1 column; text takes 2 columns */
     grid-template-rows: 1fr;       /* Single row */
     align-items: center;
-    background-color: #F6EDDE;
+    background-color: #fff;
     overflow: hidden;
     transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
     border: 3px solid #472E56;        /* Border around the entire row */
