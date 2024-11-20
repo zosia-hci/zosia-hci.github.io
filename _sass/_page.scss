@@ -86,6 +86,7 @@
     margin-right: 10px;
     border: 3px solid #472E56;        /* Border around the entire row */
     border-radius: 10px;   
+    transition: transform ease-in-out 0.3s;
     a {
       img {
         width: 250px;
@@ -121,12 +122,14 @@
       box-shadow: 0 0 10px rgba(#000000, 0.25);  
 
     }
-    .about-row3:hover:after {
+    &:hover:after {
       transform: scale(1.0);
       transition: transform ease-in-out 0.3s;
     }
     
+    
   }
+  
 
   dt {
     margin-top: 1em;
