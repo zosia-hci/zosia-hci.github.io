@@ -18,6 +18,7 @@
 
 .page {
 
+  
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -51,6 +52,10 @@
 
 .page__content {
 
+  img {
+    //box-shadow: 0 0 5px rgba(#000000, 0.25);
+    border-radius: 5px;
+  }
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
@@ -91,7 +96,7 @@
       img {
         width: 250px;
         height: 250px;
-        border-radius: 10px;
+        border-radius: 7px;
         object-fit: cover;
       }
     }
