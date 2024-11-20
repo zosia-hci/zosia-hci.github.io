@@ -28,14 +28,6 @@ redirect_from:
     </a>
     <div class="centered">#research #haptics</div>
   </div>
-
-  <div class="about-box">
-    <a href="/portfolio/6-2024-alfresco">
-      <img src="images/alfresco-square.png" alt="Al Fresco">
-    </a>
-    <div class="centered">#product #design</div>
-
-  </div>
   <div class="about-box">
     <a href="/portfolio/6-2023-on_blog">
       <img src="images/on_blog_square.png" alt="OnBlog">
@@ -48,6 +40,12 @@ redirect_from:
     </a> 
     <div class="centered">#UX design #FinTech #IF Award</div>
 
+  </div>
+  <div class="about-box">
+    <a href="/portfolio/6-2024-alfresco">
+      <img src="images/alfresco-square.png" alt="Al Fresco">
+    </a>
+    <div class="centered">#product #design</div>
   </div>
   <div class="about-box">
     <a href="/portfolio/8-2022-blocks">
@@ -66,12 +64,6 @@ redirect_from:
       <img src="images/Texture_Slicer_poster.jpg" alt="TextureSlicer Poster">
     </a> 
     <div class="centered">#poster #texture</div>
-  </div>
-  <div class="about-box">
-    <a href="/portfolio/9-2020-closet">
-      <img src="images/closet_square.jpg" alt="Out of the closet">
-    </a> 
-    <div class="centered">#poster #drawing</div>
   </div>
   
 </div>

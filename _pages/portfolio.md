@@ -47,4 +47,25 @@ author_profile: false
         </div>
       </a>
     </div>
+    <div class="about-row3">
+      <a href="/portfolio/9-2024-hanging">
+        <div class="row-image">
+          <img src="images/hanging-in-there_square.png" alt="Are you hanging in there?">
+        </div>
+      </a> 
+    </div>
+      <a href="/portfolio/4-2024-textureslicer">
+        <div class="row-image">
+          <img src="images/Texture_Slicer_poster.jpg" alt="TextureSlicer Poster">
+        </div>
+      </a> 
+    </div>
+      <a href="/portfolio/9-2020-closet">
+        <div class="row-image">
+          <img src="images/closet_square.jpg" alt="Out of the closet">
+        </div>
+      </a> 
+      <div class="centered">#poster #drawing</div>
+    </div>
+    </div>
 </div>
