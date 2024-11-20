@@ -9,7 +9,7 @@ redirect_from:
 
 <span style="font-family: Chewy; font-size: 2em;">Portfolio</span>
 <br>
-<div class="container">
+<div class="contain3">
   <div class="about-box">
     <a href="/publication/2024-textureslicer">
       <img src="images/textureslicer.png" alt="TextureSlicer">
@@ -28,6 +28,9 @@ redirect_from:
     </a>
     <div class="centered">#research #haptics</div>
   </div>
+</div>
+<div class="contain3">
+
   <div class="about-box">
     <a href="/portfolio/6-2023-on_blog">
       <img src="images/on_blog_square.png" alt="OnBlog">
@@ -47,6 +50,9 @@ redirect_from:
     </a>
     <div class="centered">#product #design</div>
   </div>
+</div>
+<div class="contain3">
+
   <div class="about-box">
     <a href="/portfolio/8-2022-blocks">
       <img src="images/blocks_square.png" alt="Ear for blocks">
@@ -59,6 +65,7 @@ redirect_from:
     </a> 
     <div class="centered">#poster #drawing</div>
   </div>
+
   <div class="about-box">
     <a href="/portfolio/4-2024-textureslicer">
       <img src="images/Texture_Slicer_poster.jpg" alt="TextureSlicer Poster">
@@ -67,3 +74,5 @@ redirect_from:
   </div>
   
 </div>
+</div>
+
