@@ -49,6 +49,7 @@
     overflow: hidden;
     border: 3px solid #472E56;        /* Border around the entire row */
     transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s, background-color ease-in-out 0.3s;
+    margin-right:10px;        /* Rounded corners */
 
   }
   .about-row2 {
@@ -61,6 +62,8 @@
     overflow: hidden;
     border: 3px solid #472E56;        /* Border around the entire row */
     transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
+    margin-right:10px;        /* Rounded corners */
+
   }
   .contain3 {
     display: grid;
@@ -78,9 +81,7 @@
     transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
     border: 3px solid #472E56;        /* Border around the entire row */
     border-radius: 10px;   
-    margin:1px;        /* Rounded corners */
-    
-
+    margin-right:10px;        /* Rounded corners */
   }
   .about-row3:hover {
     transform: scale(1.01);
@@ -89,7 +90,6 @@
     img {
       opacity: 0.7;
       transition: opacity 0.3s ease;
-
     }
   
   }
