@@ -40,6 +40,7 @@ We conducted a survey and a follow-up interview with young investors aged 20 to 
 
 Based on the results, we drafted a vision of what a young, beginner invester looks like.
 In a context of a busy, everyday life, stock investment is a side task that should not bring too much additional stress into young person's life.
+
 <img src='images/persona.png'>
 
 # Defined Needs and Evergrow's Solution
@@ -101,9 +102,15 @@ With such large volumes of information online, communities with various opinions
 <img src='images/evergrow_6.png'>
 <img src='images/evergrow_7.png'>
 
+# My Role / Contribution
+My responsibility in the project included:
+* Performing background research - finding related research papers
+* Conducting survey study - organizing questions 
+* Interview analysis - collecting pain points and needs
+
+# About This Project
 
 This project received [iF Design Award 2024](https://ifdesign.com/en/winner-ranking/project/evergrow-investment-education-service/618273).
 
 This project was conducted as a part of User Experience (UX) class at ID KAIST, thanks to NH Investment & Securities. The project was a result of a team effort from Jaeryung Chung, Jamie Ashley Dee, Minseo Bang, Zofia Marciniak, Eunseo Oh, Hyeongjeong Im, Sunok Lee and Sangsu Lee. 
 
-My responsibility in the project included conducting the background research, survey study and interview analysis.

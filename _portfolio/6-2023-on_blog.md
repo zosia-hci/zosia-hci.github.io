@@ -44,15 +44,18 @@ We looked for GenZ content creator’s characteristics, motivation for using dif
 ## Services for creators in Naver
 
 Naver offers wide scope of different platforms, from text-based blogging, video-driven Naver TV, or webtoons. We study the support each platform gives to the creators, and what tools it provides.
+
 <img src='images/platform_research.png'>
 
 ## Result
 
 Based on the primary and secondary research, we were able to organize the characteristics of Gen Z creators, reasons for creating content and most commonly used platforms.
+
 <img src='images/secondary_result.png'>
 
 # Persona and Journey Map
 The research helped us narrow a persona of a <b>Gen Z Creator</b>. The interviews helped us create a step-by-step journey of what is like to become a Naver creator, from novice stage to THE infleuncer. 
+
 <img src='images/persona.png'>
 <img src='images/journey1.png'>
 <img src='images/journey2.png'>
@@ -63,6 +66,7 @@ The research helped us narrow a persona of a <b>Gen Z Creator</b>. The interview
 # Common Features Found in Creator Journey
 
 To narrow down the problem, we looked at common features between different steps of journey to become influencers. Based on that, we came out with eight main problems.
+
 <img src='images/problems.png'>
 
 # VIP model
