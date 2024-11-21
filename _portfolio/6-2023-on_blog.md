@@ -86,10 +86,14 @@ Therefore, we started building a tool that facilitates those interactions: a <b>
 # Final Solution
 <img src='images/on_blog_2.png'>
 
+
 The 온 blog proposes a new system structure to enhance sense of accomplishment in the process of collaboration. The first system, 열린 포스트 (an open post), allows the owner of the post to invite all other creators to fill-in the content their posts need in a form of a "call to collaborate". The other system, 열린 글모임 (an open writing meeting), is for established collaborators, who need a system to facilitate smoother collaborations in the editing environment of Naver blog. 
 
+# About This Project
 
 This project was conducted as a part of System Design course at ID KAIST, thanks to Naver. The project was a result of a team effort from Jian Jun, Jeongjae Lee, Hyerim Hwang, Zofia Marciniak, Adil Hassan Khan. 
+
+# Figma Prototype
 
 Below is a detailed presentation with the background research. Please use fullscreen mode to view.
 
