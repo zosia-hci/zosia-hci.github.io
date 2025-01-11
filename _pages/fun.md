@@ -2,7 +2,7 @@
 layout: archive
 title: "Fun"
 permalink: /fun/
-author_profile: false
+author_profile: true
 ---
 
 <div class="container2">
