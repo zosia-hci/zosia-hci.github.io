@@ -2,11 +2,16 @@
 title: "Evergrow: Investment Education Service"
 excerpt: "<img src='/images/evergrow_1.png'>"
 collection: portfolio
+sidebar: 
+    - text: "<h2>About This Project</h2><li>Evergrow transforms stock investment into an engaging experience by visualizing portfolios as a growing forest, empowering beginners to build financial literacy with the guidance of Hazel, a friendly financial fairy advisor.</li>"
+    - text: "<h2>Contribution</h2><li>Contribution in this project includes background research, survey organization and interview analysis."
+    - text: "<h2>Team</h2><li>Jaeryung Chung<br>Jamie Ashley Dee<br>Minseo Bang<br>Zofia Marciniak<br>Eunseoo Oh<br></li>"
+    - nav: true
 ---
 
 <img src='images/evergrow_1.png'>
 
-# TL;DR 
+# Introduction
 
 Evergrow is a FinTech app that empowers beginners to participate in stock management and investment, fostering self growth in their financial literacy. It achieves this through a unique representation of a user's portfolio as a forest, enhancing understanding of stocks and reducing frustration from direct exposure to price fluctuations. Over time, the trees representing stocks flourish with sustained investments, encouraging thoughtful decisions and a commitment to long-term investments. The app integrates Hazel, a financial fairy advisor, who provides insights on fiscal choices, cultivating a healthier investment atmosphere for newcomers.
 

@@ -22,7 +22,7 @@ repository               : "zosia-hci/zosia-hci.github.io"
 author:
   # Biographic information
   avatar           : "profile-pic_square.jpg"
-  name             : "Zosia Marciniak"
+  name             : "<h2>Zosia Marciniak</h2>"
   pronouns         : #"she/her"
   bio              : My name is Zofia (formally), or Zosia (pronounced Zoh-see-ah). I am a second year master student at KAIST, majoring in Industrial Design, where I research Human-Computer Interaction under the guidance of professor Andrea Bianchi. My interest is specifically in digital fabrication. I explore digitalization opportunities for crafters, specifically crocheters.
   location         : #"Daejeon, South Korea"
@@ -258,6 +258,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar: true
       share: true
       comment: true
   # _talks

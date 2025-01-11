@@ -2,10 +2,15 @@
 title: "온 blog: Fulfiling creator's experience"
 excerpt: "<img src='/images/on_blog_1.png'>"
 collection: portfolio
+sidebar: 
+    - text: "<h2>About This Project</h2><li>Empowering Naver creators with a platform that strengthens their identity, fosters connections, and transforms their creative journey into a source of pride.</li>"
+    - text: "<h2>Contribution</h2><li>While teamwork was key, my main contributions were background research, interview analysis, persona development, and designing creator interactions in the prototype."
+    - text: "<h2>Team</h2><li>Jian Jun<br>Jeongjae Lee<br>Hyerim Hwang<br> Zofia Marciniak<br>Adil Hassan Khan<br></li>"
+    - nav: true
 ---
 <img src='images/on_blog_1.png'>
 
-# TL;DR
+# Introduction
 
 Current creators on Naver platform have a lack of sense of accomplishment. With our solution, we want to strengthen the creators identity, create a platform for building relationships with other creators, and allow creators to show their indentity in the process.
 
