@@ -2,6 +2,11 @@
 title: "Al Fresco"
 excerpt: "<img src='/images/alfresco-square.png'>"
 collection: portfolio
+sidebar: 
+    - text: "<h2>About This Project</h2><li>Reinventing public fountain space to cool cities in the summer heat.</li>"
+    - text: "<h2>Contribution</h2><li>I contributed strongly to ideation, research, and prototyping. I participated in making the clay panels and assembling final structure."
+    - text: "<h2>Team</h2><li>Jian Jun<br>Wonyoung Lee<br>Zofia Marciniak<br>Jeanyoon Choi<br>Luca Trevisani</li>"
+    - nav: true
 ---
 
 <img src='images/board1.png'>
