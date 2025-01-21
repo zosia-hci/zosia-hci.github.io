@@ -208,7 +208,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+  whoami:
     output: true
     permalink: /:collection/:path/
 
@@ -264,10 +264,10 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: whoami
     values:
-      layout: talk
-      author_profile: true
+      layout: single
+      author_profile: false
       share: true
 
 # Sass/SCSS
