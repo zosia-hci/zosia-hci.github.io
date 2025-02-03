@@ -4,21 +4,33 @@
 
 .archive {
   margin-bottom: 2em;
-  .container2 .about-box {
-    position: relative;
-    text-align: center;
-    display: inline-block;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    border-radius: 12px;
+  
+  .container2 {
+    .about-box {
+      transition: all 0.3s ease-in-out;
+    }
+    .about-box:hover{
+      transform: scale(1.01);
+    }
+    .about-box:hover:after {
+      transform: scale(1.0);
+    }
+    .about-box {
+      position: relative;
+      text-align: center;
+      display: inline-block;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      border-radius: 12px;
 
-    a {
-      img {
-        width: 250px;
-        height: 250px;
-        border-radius: 10px;
-        object-fit: cover;
+      a {
+        img {
+          width: 250px;
+          height: 250px;
+          border-radius: 10px;
+          object-fit: cover;
 
+        }
       }
     }
   }
