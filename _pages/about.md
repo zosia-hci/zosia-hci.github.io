@@ -68,10 +68,10 @@ redirect_from:
   </div>
 
   <div class="about-box">
-    <a href="/portfolio/4-2024-textureslicer">
-      <img src="images/Texture_Slicer_poster.jpg" alt="TextureSlicer Poster">
+    <a href="/portfolio/6-2024-alfresco">
+      <img src="/images/alfresco-square.png" alt="Al Fresco">
     </a> 
-    <div class="centered">#poster #texture</div>
+    <div class="centered">#product #design</div>
   </div>
   
 </div>
