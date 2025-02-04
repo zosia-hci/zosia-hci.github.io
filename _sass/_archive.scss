@@ -77,11 +77,6 @@
 
   }
   .contain3 {
-    .img {
-      width: 250px;
-      height: 250px;
-      object-fit: cover;
-    }
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Image takes 1 column; text takes 2 columns */
     grid-template-rows: 1fr;       /* Single row */
