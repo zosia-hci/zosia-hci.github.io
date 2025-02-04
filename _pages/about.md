@@ -59,10 +59,12 @@ redirect_from:
     <div class="centered">#interactive #product</div>
   </div>
   <div class="about-box">
-    <a href="/portfolio/9-2024-hanging">
-      <img src="images/hanging-in-there_square.png" alt="Are you hanging in there?">
-    </a> 
-    <div class="centered">#poster #drawing</div>
+    <a href="/portfolio/12-2023-wheel">
+          <div class="row-image">
+            <img src="/images/wheel.gif" alt="Storytelling Wheel">
+          </div>
+        </a> 
+    <div class="centered">#media #interaction #design</div>
   </div>
 
   <div class="about-box">
