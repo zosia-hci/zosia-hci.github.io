@@ -66,7 +66,7 @@ author_profile: true
       <div class="about-row3">
         <a href="/portfolio/12-2023-wheel">
           <div class="row-image">
-            <img src="/images/wheel.gif" style="object-fit: cover";alt="Storytelling Wheel">
+            <img src="/images/wheel.gif" alt="Storytelling Wheel">
           </div>
         </a> 
       </div>
