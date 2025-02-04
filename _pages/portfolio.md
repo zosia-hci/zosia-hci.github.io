@@ -64,9 +64,9 @@ author_profile: true
     </div>
     <div class="contain3">
       <div class="about-row3">
-        <a href="/portfolio/9-2024-hanging">
+        <a href="/portfolio/12-2023-wheel">
           <div class="row-image">
-            <img src="/images/hanging-in-there_square.png" alt="Are you hanging in there?">
+            <img src="/images/wheel.gif" style="object-fit: cover";alt="Storytelling Wheel">
           </div>
         </a> 
       </div>
