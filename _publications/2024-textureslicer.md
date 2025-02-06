@@ -6,7 +6,8 @@ date: 2024-05-31
 venue: 'AODR'
 excerpt: ""
 paperurl: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11791232'
-citation: <b>Zofia Marciniak</b>, Kongpyung Moon, and Andrea Bianchi (AODR, vol. 150)
+citation: <b>Zofia Marciniak</b>, Kongpyung Moon, and Andrea Bianchi
+media: /publications/images/textureslicer1.jpg
 ---
 <img src='images/textureslicer1.jpg'>
 

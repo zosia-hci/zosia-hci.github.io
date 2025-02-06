@@ -6,7 +6,8 @@ date: 2024-05-10
 venue: 'CHI'
 excerpt: ""
 paperurl: 'https://dl.acm.org/doi/10.1145/3613904.3642537'
-citation: Kongpyung (Justin) Moon, <b>Zofia Marciniak</b>, Ryo Suzuki, and Andrea Bianchi (CHI 2024)
+citation: Kongpyung (Justin) Moon, <b>Zofia Marciniak</b>, Ryo Suzuki, and Andrea Bianchi
+media: https://www.youtube.com/embed/UPplIn-6F6A?si=dJO42PHssksCFtSR
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UPplIn-6F6A?si=dJO42PHssksCFtSR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
