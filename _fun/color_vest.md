@@ -2,7 +2,7 @@
 title: "Colorful vest"
 collection: fun
 type: "Crochet"
-permalink: /fun/vest2
+permalink: /fun/color_vest
 venue: "Handmade"
 date: 2024-01-01
 location: ""
