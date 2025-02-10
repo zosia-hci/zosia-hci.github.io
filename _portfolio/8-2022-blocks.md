@@ -3,6 +3,8 @@ title: "Ear for blocks"
 excerpt: "<img src='/images/blocks_1.png'>"
 collection: portfolio
 image: "/images/blocks_square.png"
+categories: "#interactive #design"
+onmain: true
 ---
 <img src='images/blocks_1.png'>
 

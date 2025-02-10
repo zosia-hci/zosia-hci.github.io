@@ -6,7 +6,6 @@ author_profile: true
 ---
 
 <div class="container">
-    <!-- Projects WITH descriptions -->
     <div class="projects-with-descriptions">
         {% for project in site.portfolio %}
             {% if project.description %}

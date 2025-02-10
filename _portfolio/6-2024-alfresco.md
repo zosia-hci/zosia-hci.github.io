@@ -10,6 +10,7 @@ sidebar:
 image: "/images/alfresco-square.png"
 categories: "#product #design #for humanity"
 description: "The global heatwave is becoming increasingly extreme, posing serious health risks. We built a terracotta-based natural cooling system using evaporation, designed for installation in public fountains."
+onmain: true
 ---
 
 <img src='images/board1.png'>

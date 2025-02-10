@@ -2,6 +2,7 @@
 title: "온 blog: Fulfiling creator's experience"
 excerpt: "<img src='/images/on_blog_1.png'>"
 collection: portfolio
+onmain: true
 sidebar: 
     - text: "<h2>About This Project</h2><li>Empowering Naver creators with a platform that strengthens their identity, fosters connections, and transforms their creative journey into a source of pride.</li>"
     - text: "<h2>Contribution</h2><li>While teamwork was key, my main contributions were background research, interview analysis, persona development, and designing creator interactions in the prototype."

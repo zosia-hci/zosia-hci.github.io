@@ -3,6 +3,7 @@ title: "Evergrow: Investment Education Service"
 excerpt: "<img src='/images/evergrow_1.png'>"
 collection: portfolio
 categories: "#UX design #UX/UI #finance #IF Award"
+onmain: true
 sidebar: 
     - text: "<h2>About This Project</h2><li>Evergrow transforms stock investment into an engaging experience by visualizing portfolios as a growing forest, empowering beginners to build financial literacy with the guidance of Hazel, a friendly financial fairy advisor.</li>"
     - text: "<h2>Contribution</h2><li>Contribution in this project includes background research, survey organization and interview analysis."
