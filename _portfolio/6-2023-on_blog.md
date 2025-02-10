@@ -7,6 +7,10 @@ sidebar:
     - text: "<h2>Contribution</h2><li>While teamwork was key, my main contributions were background research, interview analysis, persona development, and designing creator interactions in the prototype."
     - text: "<h2>Team</h2><li>Jian Jun<br>Jeongjae Lee<br>Hyerim Hwang<br> Zofia Marciniak<br>Adil Hassan Khan<br></li>"
     - nav: true
+description: "Discover how we enhanced user interaction and engagement with OnBlog. With our solution, we want to strengthen the creators' identity, create a platform for building relationships with other creators, and allow creators to show their identity in the process."
+categories: "#UX design #system design #blogging"
+image: "/images/on_blog_square.png"
+url: "/portfolio/6-2023-on_blog"
 ---
 <img src='images/on_blog_1.png'>
 

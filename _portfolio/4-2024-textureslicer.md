@@ -2,6 +2,7 @@
 title: "Poster for Texture Slicer"
 excerpt: "<img src='/images/Texture_Slicer_poster.jpg'>"
 collection: portfolio
+image: "/images/textureslicer-poster-square.png"
 ---
 <img src='/images/Texture_Slicer_poster.jpg'>
 

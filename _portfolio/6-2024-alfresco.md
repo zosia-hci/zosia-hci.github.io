@@ -7,6 +7,9 @@ sidebar:
     - text: "<h2>Contribution</h2><li>I contributed strongly to ideation, research, and prototyping. I participated in making the clay panels and assembling final structure."
     - text: "<h2>Team</h2><li>Jian Jun<br>Wonyoung Lee<br>Zofia Marciniak<br>Jeanyoon Choi<br>Luca Trevisani</li>"
     - nav: true
+image: "/images/alfresco-square.png"
+categories: "#product #design #for humanity"
+description: "The global heatwave is becoming increasingly extreme, posing serious health risks. We built a terracotta-based natural cooling system using evaporation, designed for installation in public fountains."
 ---
 
 <img src='images/board1.png'>

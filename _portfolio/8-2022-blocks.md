@@ -2,6 +2,7 @@
 title: "Ear for blocks"
 excerpt: "<img src='/images/blocks_1.png'>"
 collection: portfolio
+image: "/images/blocks_square.png"
 ---
 <img src='images/blocks_1.png'>
 

@@ -2,6 +2,7 @@
 title: "Hanging In There"
 excerpt: "<img src='/images/hanging-in-there_square.png'>"
 collection: portfolio
+image: "/images/hanging-in-there_square.png"
 ---
 <img src='hanging-in-there_square.png'>
 

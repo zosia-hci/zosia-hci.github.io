@@ -2,6 +2,7 @@
 title: "Out of the closet"
 excerpt: "<img src='/images/closet_1.png'>"
 collection: portfolio
+image: "/images/closet_square.jpg"
 ---
 <img src='images/closet_1.png'>
 

@@ -2,11 +2,16 @@
 title: "Evergrow: Investment Education Service"
 excerpt: "<img src='/images/evergrow_1.png'>"
 collection: portfolio
+categories: "#UX design #UX/UI #finance #IF Award"
 sidebar: 
     - text: "<h2>About This Project</h2><li>Evergrow transforms stock investment into an engaging experience by visualizing portfolios as a growing forest, empowering beginners to build financial literacy with the guidance of Hazel, a friendly financial fairy advisor.</li>"
     - text: "<h2>Contribution</h2><li>Contribution in this project includes background research, survey organization and interview analysis."
     - text: "<h2>Team</h2><li>Jaeryung Chung<br>Jamie Ashley Dee<br>Minseo Bang<br>Zofia Marciniak<br>Eunseoo Oh<br></li>"
     - nav: true
+url: "/portfolio/7-2022-evergrow"
+image: "/images/evergrow_square.png"
+description: "Evergrow empowers beginners to participate in stock management and investment, fostering self-growth in their financial literacy through a unique representation of a user’s portfolio as a forest."
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aZymHF-HguQ?si=iB8D_ru16mFjLM7l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
