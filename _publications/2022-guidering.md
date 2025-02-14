@@ -8,6 +8,9 @@ excerpt: ""
 paperurl: 'https://dl.acm.org/doi/10.1145/3562939.3565626'
 citation: <b>Zofia Marciniak</b>, Seo Young Oh, and Sang Ho Yoon
 media: "/publications/images/guidering_cover.png"
+onmain: true
+image: "/images/guidering.GIF"
+categories: "#research #haptics"
 ---
 
 We introduce a novel wearable haptic feedback device that magnifies the visual experience of virtual and augmented environments through bidirectional vibrotactile feedback driven by electromagnetic coils with permanent magnets. This device creates guidance haptic effect through magnetic attraction and repulsion. Our proof-of-concept prototype enables haptic interaction through altering position of wearable structure, vibrating with different intensity, and waveform pattern. Example applications illustrate how the proposed system promotes guided and rich haptic feedback.

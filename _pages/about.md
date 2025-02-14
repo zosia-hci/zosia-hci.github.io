@@ -1,78 +1,58 @@
 ---
 permalink: /
-title:
+title: "Portfolio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-<span style="font-family: Chewy; font-size: 2em;">Portfolio</span>
-<br>
-<div class="contain3">
-
-  <div class="about-box">
-    <a href="/portfolio/6-2023-on_blog">
-      <img src="images/on_blog_square.png" alt="OnBlog">
-    </a>
-    <div class="centered">#UX design</div>
-  </div>
-  <div class="about-box">
-    <a href="/portfolio/7-2022-evergrow">
-      <img src="images/evergrow_square.png" alt="Evergrow">
-    </a> 
-    <div class="centered">#UX design #FinTech #IF Award</div>
-
-  </div>
-  <div class="about-box">
-    <a href="/portfolio/6-2023-dnd">
-      <img src="images/dnd-square.png" alt="Do Not Disturb">
-    </a>
-    <div class="centered">#UX #Data Visualization</div>
-  </div>
+<div class="container">
+  {% assign counter = 0 %}
+  {% for project in site.publications reversed %}
+    {% if project.onmain %}
+      {% if counter == 0 %}
+        <div class="contain3">
+      {% endif %}
+        <div class="about-box">
+          <a href="{{ project.url | relative_url }}">
+            <img src="{{ project.image }}" alt="{{ project.title }}">
+          </a>
+          <div class="centered">{{ project.categories | join: " " }}</div>
+        </div>
+      {% assign counter = counter | plus: 1 %}
+      {% if counter == 3 %}
+        </div> <!-- Close contain3 after 3 items -->
+        {% assign counter = 0 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if counter > 0 %}
+    </div> <!-- Close contain3 if leftover items exist -->
+  {% endif %}
 </div>
-<div class="contain3">
-  <div class="about-box">
-    <a href="/publication/2024-textureslicer">
-      <img src="images/textureslicer.png" alt="TextureSlicer">
-    </a>
-    <div class="centered">#research #fabrication</div>
-  </div>
-  <div class="about-box">
-    <a href="/publication/2024-thermopixels">
-      <img src="images/thermopixels.png" alt="ThermoPixels" >
-    </a>
-    <div class="centered">#research #fabrication</div>
-  </div>
-  <div class="about-box">
-    <a href="/publication/2022-guidering">
-      <img src="images/guidering.GIF" alt="GuideRing">
-    </a>
-    <div class="centered">#research #haptics</div>
-  </div>
-</div>
-<div class="contain3">
-  <div class="about-box">
-    <a href="/portfolio/8-2022-blocks">
-      <img src="images/blocks_square.png" alt="Ear for blocks">
-    </a> 
-    <div class="centered">#interactive #product</div>
-  </div>
-  <div class="about-box">
-    <a href="/portfolio/12-2023-wheel">
-          <div class="row-image">
-            <img src="/images/wheel.gif" alt="Storytelling Wheel">
-          </div>
-        </a> 
-    <div class="centered">#media #interaction #design</div>
-  </div>
 
-  <div class="about-box">
-    <a href="/portfolio/6-2024-alfresco">
-      <img src="/images/alfresco-square.png" alt="Al Fresco">
-    </a> 
-    <div class="centered">#product #design</div>
-  </div>
-  
+<div class="container">
+  {% assign counter = 0 %}
+  {% for project in site.portfolio %}
+    {% if project.onmain %}
+      {% if counter == 0 %}
+        <div class="contain3">
+      {% endif %}
+        <div class="about-box">
+          <a href="{{ project.url | relative_url }}">
+            <img src="{{ project.image }}" alt="{{ project.title }}">
+          </a>
+          <div class="centered">{{ project.categories | join: " " }}</div>
+        </div>
+      {% assign counter = counter | plus: 1 %}
+      {% if counter == 3 %}
+        </div> <!-- Close contain3 after 3 items -->
+        {% assign counter = 0 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if counter > 0 %}
+    </div> <!-- Close contain3 if leftover items exist -->
+  {% endif %}
 </div>
 

@@ -8,6 +8,9 @@ excerpt: ""
 paperurl: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11791232'
 citation: <b>Zofia Marciniak</b>, Kongpyung Moon, and Andrea Bianchi
 media: /publications/images/textureslicer1.jpg
+onmain: true
+image: "/images/textureslicer.png"
+categories: "#research #fabrication"
 ---
 <img src='images/textureslicer1.jpg'>
 
