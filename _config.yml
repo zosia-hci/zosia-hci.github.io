@@ -28,7 +28,7 @@ author:
   location         : #"Daejeon, South Korea"
   employer         : #"KAIST"
   uri              : #"https://zosia-hci.github.io"
-  email            : "zosia.m.marciniak@gmail.com" 
+  email            : # nope
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
