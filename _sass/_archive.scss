@@ -59,7 +59,6 @@
     align-items: center;
     border-radius: 10px;           /* Rounded corners */
     overflow: hidden;
-    border: 3px solid #472E56;        /* Border around the entire row */
     transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s, background-color ease-in-out 0.3s;
     margin-right:10px;        /* Rounded corners */
     margin-bottom: 5px;
@@ -71,7 +70,6 @@
     align-items: center;
     border-radius: 10px;           /* Rounded corners */
     overflow: hidden;
-    border: 3px solid #472E56;        /* Border around the entire row */
     transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
     margin-right:10px;        /* Rounded corners */
 
@@ -90,7 +88,6 @@
     background-color: #fff;
     overflow: hidden;
     transition: transform ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
-    border: 3px solid #472E56;        /* Border around the entire row */
     border-radius: 10px;   
     margin-right:10px;        /* Rounded corners */
   }
