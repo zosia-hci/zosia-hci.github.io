@@ -124,6 +124,8 @@ h1, h2, h3, h4, h5, h6 {
 
 // Smooth page transitions
 .page {
+padding-right: 0;
+
   animation: fadeIn 0.5s ease;
 }
 
@@ -191,24 +193,3 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
-
-// Responsive adjustments
-@media screen and (max-width: 768px) {
-  .contain3 {
-    grid-template-columns: 1fr;
-  }
-  
-  .about-box img {
-    height: 100%;
-    width: 100%;
-  }
-
-  .projects-with-descriptions {
-    .about-row {
-      grid-template-columns: 1fr;
-      .row-image {
-        height: 100%;
-      }
-    }
-  }
-} 

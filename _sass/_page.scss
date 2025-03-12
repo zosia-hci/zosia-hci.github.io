@@ -18,7 +18,6 @@
 
 .page {
 
-  
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -194,7 +193,7 @@
     }
 
     .page__lead {
-      max-width: $medium;
+      max-width: $x-large
     }
 
     .page__title {
