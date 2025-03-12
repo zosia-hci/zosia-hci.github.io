@@ -29,9 +29,6 @@ redirect_from:
   {% if counter > 0 %}
     </div> <!-- Close contain3 if leftover items exist -->
   {% endif %}
-</div>
-
-<div class="container">
   {% assign counter = 0 %}
   {% for project in site.portfolio %}
     {% if project.onmain %}
