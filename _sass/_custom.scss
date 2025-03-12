@@ -33,8 +33,8 @@ $overlay-gradient: linear-gradient(to top,
 
 // Project box styles
 .about-box {
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
@@ -200,15 +200,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .about-box img {
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
   }
 
   .projects-with-descriptions {
     .about-row {
       grid-template-columns: 1fr;
       .row-image {
-        height: 250px;
+        height: 100%;
       }
     }
   }
