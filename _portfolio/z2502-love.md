@@ -22,3 +22,5 @@ Recipe:
 * add other fillings (ham, cheese)
 * wait until cheese slightly melts
 * combine both sides of bun with ingredients and add egg, lettuce
+
+<img src='bun.heic'>
