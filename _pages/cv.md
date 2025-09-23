@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* M.S. Industrial Design, KAIST, ongoing
+* M.S. Industrial Design, KAIST, 2025
 * B.S. Industrial Design and Computer Science, KAIST, 2023
 
 Research Interest
@@ -31,6 +31,9 @@ Research experience
 
 Work experience
 ======
+* September, 2025 - ongoing · Engineer  @[Samsung Electronics](https://www.samsung.com/us/)
+  * Working in Device Experience (DX) division, under Visual Display (VD) business
+
 * June, 2022 - Sept, 2022 · 4 mos: Software Engineer Intern @[NoMagic](https://nomagic.ai/)
   * Implemented a feature for issue-handling in a Pick&Place robot solution using python
 
