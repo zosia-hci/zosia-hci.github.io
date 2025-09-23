@@ -8,7 +8,7 @@ excerpt: ""
 paperurl: 'https://dl.acm.org/doi/10.1145/3562939.3565626'
 citation: <b>Zofia Marciniak</b>, Seo Young Oh, and Sang Ho Yoon
 media: "/publications/images/guidering_cover.png"
-onmain: true
+onmain: false
 image: "/images/guidering.GIF"
 categories: "#research #haptics"
 ---
