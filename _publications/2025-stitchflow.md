@@ -8,6 +8,7 @@ excerpt: ""
 paperurl: 'TBA'
 citation: <b>Zofia Marciniak</b>, Punn Lertjaturaphat, and Andrea Bianchi
 onmain: true
+media: https://www.youtube.com/watch?v=Qo6rLz8-52Y
 image: "/images/StitchFlow_sq.png"
 categories: "#research #craft"
 
