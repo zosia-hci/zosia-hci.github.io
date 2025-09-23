@@ -7,7 +7,6 @@ venue: 'UIST'
 excerpt: ""
 paperurl: 'TBA'
 citation: <b>Zofia Marciniak</b>, Punn Lertjaturaphat, and Andrea Bianchi
-media: https://www.youtube.com/embed/UPplIn-6F6A?si=dJO42PHssksCFtSR
 onmain: true
 image: "/images/StitchFlow_sq.png"
 categories: "#research #craft"
