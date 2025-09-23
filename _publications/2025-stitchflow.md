@@ -1,5 +1,5 @@
 ---
-title: "StitchFlow: Enabling In-Situ Creative Explorations of Crochet Patterns"
+title: "StitchFlow: Enabling In-Situ Creative Explorations of Crochet Patterns with Stitch Tracking and Process Sharing"
 collection: publications
 permalink: /publication/2025-stitchflow
 date: 2025-09-29
