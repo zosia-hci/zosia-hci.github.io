@@ -5,7 +5,7 @@ permalink: /publication/2025-stitchflow
 date: 2025-09-29
 venue: 'UIST'
 excerpt: ""
-paperurl: 'TBA'
+paperurl: 'https://dl.acm.org/doi/full/10.1145/3746059.3747715'
 citation: <b>Zofia Marciniak</b>, Punn Lertjaturaphat, and Andrea Bianchi
 onmain: true
 media: https://www.youtube.com/watch?v=Qo6rLz8-52Y
