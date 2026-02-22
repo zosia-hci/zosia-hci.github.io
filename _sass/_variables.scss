@@ -49,12 +49,15 @@ $masthead-height            : 80px;
    Colors
    ========================================================================== */
 
-/* New design system colors */
-$primary-deep-navy         : #2D3047;
-$primary-sage-green        : #419D78;
-$primary-warm-gold         : #E0A458;
-$neutral-dark              : #2C3E50;
-$neutral-light             : #F5F7FA;
+/* Light professional pink palette */
+$primary-rose              : #C97A8E;  // Soft dusty rose - main brand color
+$primary-pink               : #E8B4B8;  // Light pink accent
+$primary-blush              : #F5E6E8;  // Very light blush background
+$accent-rose                : #B85C7A;  // Deeper rose for hover states
+$neutral-dark               : #3A3A3A;  // Charcoal for text - professional contrast
+$neutral-medium             : #6B6B6B;  // Medium gray for secondary text
+$neutral-light              : #FFFBFB;  // Warm white with slight pink tint
+$neutral-lighter            : #FFFFFF;  // Pure white for cards
 
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
@@ -62,23 +65,24 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
+$body-color                 : $neutral-lighter;
 $background-color           : $neutral-light;
 $code-background-color      : $neutral-light;
 $code-background-color-dark : $light-gray;
 $text-color                 : $neutral-dark;
-$border-color               : $lighter-gray;
+$text-color-secondary       : $neutral-medium;
+$border-color               : rgba($primary-rose, 0.15);
 
-$primary-color             : $primary-deep-navy;
-$success-color             : $primary-sage-green;
-$warning-color             : $primary-warm-gold;
-$danger-color              : #ee5f5b;
+$primary-color             : $primary-rose;
+$success-color             : $primary-rose;
+$warning-color             : $primary-pink;
+$danger-color              : $accent-rose;
 $info-color                : #52adc8;
 
 /* brands */
 $behance-color             : #1769FF;
 $dribbble-color            : #F0A910;
-$github-color              : $primary-deep-navy;
+$github-color              : $primary-rose;
 $linkedin-color            : #0077B5;
 $twitter-color             : #1DA1F2;
 $bluesky-color              : #1184fe;
@@ -103,11 +107,11 @@ $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
 /* links */
-$link-color                 : $primary-sage-green;
-$link-color-hover           : mix(#000, $primary-sage-green, 25%);
-$link-color-visited         : mix(#fff, $primary-sage-green, 15%);
-$masthead-link-color        : $primary-deep-navy;
-$masthead-link-color-hover  : $primary-sage-green;
+$link-color                 : $primary-rose;
+$link-color-hover           : $accent-rose;
+$link-color-visited         : mix(#fff, $primary-rose, 20%);
+$masthead-link-color        : $neutral-dark;
+$masthead-link-color-hover  : $primary-rose;
 
 /*
    Breakpoints
@@ -145,7 +149,7 @@ $susy: (
    ========================================================================== */
 
 $border-radius              : 8px;
-$box-shadow                 : 0 4px 6px rgba($primary-deep-navy, 0.1);
+$box-shadow                 : 0 4px 6px rgba($primary-rose, 0.08);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

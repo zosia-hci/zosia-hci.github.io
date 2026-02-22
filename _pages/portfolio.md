@@ -17,7 +17,7 @@ author_profile: true
                 </a>
                 <a href="{{ project.url }}">
                     <div class="row-text">
-                        <p style="color: #472E56"> {{ project.categories | join: ' '}}</p>
+                        <p class="project-category"> {{ project.categories | join: ' '}}</p>
                         <h3>{{ project.title }}</h3>
                         <p>{{ project.description }}</p>
                     </div>

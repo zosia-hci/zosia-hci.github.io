@@ -4,8 +4,9 @@
 
 .masthead {
   position: fixed;
-  background: #fff;
-  border-bottom: 2px solid #472E56;
+  background: $body-color;
+  border-bottom: 2px solid rgba($primary-rose, 0.15);
+  box-shadow: 0 2px 8px rgba($primary-rose, 0.05);
   height: $masthead-height;
   top: 0;
   width: 100%;
