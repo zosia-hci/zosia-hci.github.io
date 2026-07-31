@@ -53,7 +53,7 @@
   /* ── Populate hero ── */
   document.getElementById("hero-title").textContent = SITE.title;
   document.getElementById("hero-tagline").textContent = SITE.tagline;
-  document.getElementById("hero-bio").textContent = SITE.bio;
+  document.getElementById("hero-bio").innerHTML = SITE.bio;
   document.getElementById("hero-about").textContent = SITE.about;
 
   const heroLinks = document.getElementById("hero-links");
@@ -87,6 +87,7 @@
 
   /* ── Publications ── */
   const pubList = document.getElementById("pub-list");
+
   PUBLICATIONS.forEach((pub) => {
     const card = document.createElement("article");
     card.className = `pub-card${pub.featured ? " featured" : ""}`;

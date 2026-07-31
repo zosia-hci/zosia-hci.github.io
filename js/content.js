@@ -2,10 +2,10 @@ const SITE = {
   name: "Zosia Marciniak",
   formalName: "Zofia Marciniak",
   pronounciation: "Zoh-see-ah",
-  title: "Engineer at Samsung Electronics",
-  tagline: "HCI researcher · digital fabrication · crafting technology",
-  bio: `My name is Zofia (formally), or Zosia (pronounced Zoh-see-ah). I am an Engineer at Samsung Electronics. Previously, I researched Human-Computer Interaction at KAIST Make Lab, where I explored how technology can support crafters without losing the personal touch of making.`,
-  about: `I'm passionate about bringing traditional crafting and modern tech together — helping crafters digitize their processes and share their work in new ways. When I'm not researching or engineering, you'll find me crocheting, solving sudokus, bouldering, or traveling with my older sister.`,
+  title: "PhD student at ETH Zurich",
+  tagline: "human–computer interaction · crafting technology",
+  bio: `My name is Zofia (formally), or Zosia (pronounced Zoh-see-ah). I am a PhD student in Computer Science at ETH Zurich, advised by <a href="http://aprilwang.me" target="_blank" rel="noopener" class="text-link">Prof. April Wang</a> in the <a href="http://peachlab.inf.ethz.ch" target="_blank" rel="noopener" class="text-link">PEACH Lab</a>. Previously, I worked as an Engineer at Samsung Electronics and completed my master's degree at <a href="http://make.kaist.ac.kr" target="_blank" rel="noopener" class="text-link">KAIST Make Lab</a> under Prof. Andrea Bianchi, and before that I completed my double major at KAIST in Industrial Design and Computer Science.`,
+  about: `I'm passionate about bringing traditional crafting and modern tech together and helping crafters digitize their processes and share their work in new ways. When I'm not researching or engineering, you'll find me crocheting, solving sudokus, bouldering, or traveling with my older sister.`,
   avatar: "images/profile-pic_square.jpg",
   cv: "files/cv.pdf",
   links: {
@@ -16,6 +16,11 @@ const SITE = {
 };
 
 const NEWS = [
+  {
+    date: "August 2026",
+    title: "Started my PhD at ETH Zurich",
+    body: "I began my PhD in the Department of Computer Science at ETH Zurich, advised by Prof. April Wang in the PEACH Lab.",
+  },
   {
     date: "September 2025",
     title: "Presented StitchFlow at UIST 2025 in Busan",
@@ -69,7 +74,7 @@ const PUBLICATIONS = [
     venue: "Korea HCI",
     year: 2023,
     url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229626",
-    image: "images/textureslicer.jpg",
+    image: "images/textureslicer.png",
     featured: false,
     abstract: "A novel workflow for 3D printing varied surface finishes without CAD texture modeling, by computationally generating G-code with embedded texture patterns.",
   },
