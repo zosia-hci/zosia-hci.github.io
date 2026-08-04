@@ -74,7 +74,7 @@ const PUBLICATIONS = [
     venue: "Korea HCI",
     year: 2023,
     url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229626",
-    image: "images/textureslicer.png",
+    image: "images/prints.png",
     featured: false,
     abstract: "A novel workflow for 3D printing varied surface finishes without CAD texture modeling, by computationally generating G-code with embedded texture patterns.",
   },
