@@ -62,7 +62,7 @@ const PUBLICATIONS = [
     authors: "Zofia Marciniak, Kongpyung Moon, and Andrea Bianchi",
     venue: "AODR",
     year: 2024,
-    url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11791232",
+    url: "https://aodr.org/_common/do.php?a=full&b=12&bidx=3672&aidx=40683",
     image: "images/textureslicer.png",
     featured: true,
     abstract: "Texture-Slicer applies texture patterns during slicing rather than modeling, keeping the 3D model unchanged while enabling tunable roughness through G-code modifications.",
