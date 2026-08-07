@@ -8,8 +8,11 @@ const SITE = {
   about: `I'm passionate about bringing traditional crafting and modern tech together and helping crafters digitize their processes and share their work in new ways. When I'm not researching or engineering, you'll find me crocheting, solving sudokus, bouldering, or traveling with my older sister.`,
   avatar: "images/profile-pic_square.jpg",
   cv: "files/cv.pdf",
+  contact: {
+    intro: "For collaborations, questions, or just to say hello, feel free to reach out to me through email at zofia.marciniak at inf.ethz.ch",
+  },
   links: {
-    github: { url: "https://github.com/zosiazamoyska", label: "GitHub" },
+     github: { url: "https://github.com/zosiazamoyska", label: "GitHub" },
     linkedin: { url: "https://www.linkedin.com/in/zosia-marciniak-a2a7a9133", label: "LinkedIn" },
     scholar: { url: "https://scholar.google.com/citations?user=nPJl6dIAAAAJ", label: "Google Scholar" },
   },

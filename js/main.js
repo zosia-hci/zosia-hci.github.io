@@ -73,6 +73,10 @@
   cvLink.rel = "noopener";
   heroLinks.appendChild(cvLink);
 
+
+  const contactText = document.getElementById("contact-text");
+  contactText.textContent = SITE.contact.intro;
+  
   /* ── News ── */
   const newsList = document.getElementById("news-list");
   NEWS.forEach((item) => {
