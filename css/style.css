@@ -221,7 +221,15 @@ a:hover { color: var(--accent-hover); }
   text-decoration-color: currentColor;
 }
 
-.text-link::after,
+.hero-bio .text-link,
+.hero-about .text-link:not([href="#fun"]),
+.hero-links a,
+.hero-lab-links a {
+  position: relative;
+}
+
+.hero-bio .text-link::after,
+.hero-about .text-link:not([href="#fun"])::after,
 .hero-links a::after,
 .hero-lab-links a::after {
   content: "↗";
@@ -233,7 +241,8 @@ a:hover { color: var(--accent-hover); }
   opacity: 0.9;
 }
 
-.text-link:hover::after,
+.hero-bio .text-link:hover::after,
+.hero-about .text-link:not([href="#fun"]):hover::after,
 .hero-links a:hover::after,
 .hero-lab-links a:hover::after {
   transform: translate(2px, -2px);
@@ -313,6 +322,29 @@ a:hover { color: var(--accent-hover); }
   color: var(--text-muted);
   font-size: 0.95rem;
   max-width: 36rem;
+}
+
+.hero-bio a,
+.hero-about a,
+.hero-bio .text-link,
+.hero-about .text-link {
+  color: var(--accent) !important;
+  font-weight: 600;
+  font-style: normal !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(184, 136, 138, 0.4);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+  display: inline;
+  cursor: pointer;
+}
+
+.hero-bio a:hover,
+.hero-about a:hover,
+.hero-bio .text-link:hover,
+.hero-about .text-link:hover {
+  color: var(--accent-hover) !important;
+  text-decoration-color: currentColor;
 }
 
 .hero-about {

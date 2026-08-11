@@ -50,11 +50,23 @@
 
   sections.forEach((s) => observer.observe(s));
 
+  function renderRichText(text) {
+    if (!text) return "";
+
+    return String(text)
+      .replace(/\[(.*?)\]\((https?:\/\/[^)\s]+)\)/g, (_match, label, url) => {
+        const safeLabel = label.replace(/"/g, "&quot;");
+        const safeUrl = url.replace(/"/g, "&quot;");
+        return `<a href="${safeUrl}" target="_blank" rel="noopener" class="text-link">${safeLabel}</a>`;
+      })
+      .replace(/\n/g, "<br>");
+  }
+
   /* ── Populate hero ── */
   document.getElementById("hero-title").textContent = SITE.title;
   document.getElementById("hero-tagline").textContent = SITE.tagline;
-  document.getElementById("hero-bio").innerHTML = SITE.bio;
-  document.getElementById("hero-about").textContent = SITE.about;
+  document.getElementById("hero-bio").innerHTML = renderRichText(SITE.bio);
+  document.getElementById("hero-about").innerHTML = renderRichText(SITE.about);
 
   const heroLinks = document.getElementById("hero-links");
   Object.values(SITE.links).forEach((link) => {
