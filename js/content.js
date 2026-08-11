@@ -251,4 +251,18 @@ const FUN = [
     images: ["fun/images/punn_vest1.jpg", "fun/images/punn_vest2.jpg"],
     credit: "Pattern by day la hanh",
   },
+  {
+    id: "sweater-green",
+    title: "Green Cat Sweater",
+    type: "Crochet",
+    year: 2025,
+    images: ["fun/images/sweater_green.jpeg", "fun/images/sweater_green_1.jpeg", "fun/images/sweater_green_3.jpeg"],
+  },
+  {
+    id: "sweater-blue",
+    title: "Blue Sweater",
+    type: "Tunisian Crochet",
+    year: 2026,
+    images: ["fun/images/sweater_blue.jpeg", "fun/images/sweater_blue_1.jpeg"],
+  }
 ];
