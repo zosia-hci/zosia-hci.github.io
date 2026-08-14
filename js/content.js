@@ -21,18 +21,18 @@ const SITE = {
 const NEWS = [
   {
     date: "August 2026",
-    title: "Started my PhD at ETH Zurich",
-    body: "I began my PhD in the Department of Computer Science at ETH Zurich, advised by Prof. April Wang in the PEACH Lab.",
+    title: "Started my PhD at ETH Zurich!",
+    body: "I am advised by Prof. April Wang in the PEACH Lab, Computer Science.",
   },
   {
     date: "September 2025",
-    title: "Presented StitchFlow at UIST 2025 in Busan",
-    body: "Presented my first first-author paper and my master's thesis, StitchFlow, at UIST in Busan, South Korea!",
+    title: "Presented at UIST 25' in Busan.",
+    body: "Presented my first first-author paper and my master's thesis, StitchFlow.",
   },
   {
     date: "September 2025",
-    title: "Became an Engineer at Samsung Electronics",
-    body: "Officially started as an Engineer at Samsung Electronics!",
+    title: "Became an Engineer at Samsung Electronics.",
+    body: "Officially started working in Samsung Electronics, VD!",
   },
 ];
 

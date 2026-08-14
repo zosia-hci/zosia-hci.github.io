@@ -96,7 +96,8 @@
     el.className = "news-item";
     el.innerHTML = `
       <span class="news-date">${item.date}</span>
-      <span class="news-title">${item.title}</span>
+      <span class="news-content"><a class="news-title">${item.title}</a><a class="news-body"> ${item.body}</a></span>
+      
     `;
     newsList.appendChild(el);
   });
