@@ -159,14 +159,25 @@ const PROJECTS = [
     featured: true,
     description: "A terracotta-based natural cooling system using evaporation, designed for installation in public fountains to cool cities in summer heat.",
     team: "Jian Jun, Wonyoung Lee, Zofia Marciniak, Jeanyoon Choi, Luca Trevisani",
-  },
+  }
+]
+const ILLUSTRATIONS = [
   {
     id: "textureslicer-poster",
     title: "Poster for Texture Slicer",
-    image: "images/textureslicer-poster-square.png",
+    image: "images/Texture_Slicer_Poster.jpg",
     tags: ["Research", "Illustration"],
     featured: false,
     description: "A poster made during a difficult phase of the Texture Slicer project — playing in Illustrator helped restore passion and finish the paper.",
+    team: "Solo project",
+  },
+  {
+    id: "mixed-reality-concert-poster",
+    title: "Mixed Reality Concert Poster",
+    image: "images/concert-05.png",
+    tags: ["Illustration", "Poster"],
+    featured: false,
+    description: "A poster for a mixed reality concert, performers and audience being both virtual and real. Assets and typography was inspired by the mixed reality theme.",
     team: "Solo project",
   },
   {
@@ -205,6 +216,7 @@ const PROJECTS = [
     description: "An artboard inspired by the song 'good mourning' from my favourite Halsey album.",
     team: "Solo project",
   },
+  
 ];
 
 const FUN = [
