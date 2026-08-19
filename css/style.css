@@ -69,9 +69,11 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
 
 #scroller img {
   height: 100%;
+
 }
 
 #scroller .innerScrollArea {
+  border-radius: var(--radius);
   overflow: hidden;
   position: absolute;
   left: 0;
