@@ -183,7 +183,7 @@ const ILLUSTRATIONS = [
   {
     id: "closet",
     title: "Out of the closet",
-    image: "images/closet_square.jpg",
+    image: "images/closet_1.png",
     tags: ["Graphic Design", "LGBTQIA+"],
     featured: false,
     description: "A small multiples graphic celebrating the vibrant diversity of the LGBTQIA+ community through cultural and fashion expressions.",
@@ -216,7 +216,15 @@ const ILLUSTRATIONS = [
     description: "An artboard inspired by the song 'good mourning' from my favourite Halsey album.",
     team: "Solo project",
   },
-  
+  {
+    id: "wheel-illustration",
+    title: "Wheel Illustration",
+    image: "images/extra_wheel.png",
+    tags: ["Illustration", "Personal"],
+    featured: false,
+    description: "A hand-drawn illustration of a wheel, exploring the concept of circular motion and its applications.",
+    team: "Solo project",
+  }
 ];
 
 const FUN = [

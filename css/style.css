@@ -55,14 +55,43 @@ body {
   transition: background var(--transition), color var(--transition);
   -webkit-font-smoothing: antialiased;
 }
-
-img { max-width: 100%; height: auto; display: block; }
 a { color: var(--accent); text-decoration: none; transition: color var(--transition); }
 
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+#scroller {
+  position: relative;
+}
+
+#scroller img {
+  height: 100%;
+}
+
+#scroller .innerScrollArea {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#scroller ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+#scroller li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  height: 200;
 }
 
 /* ── Header / Nav ── */
