@@ -146,13 +146,13 @@
   });
 
   /* -─ Scroller ── */
-  const scroller = document.getElementById("scroller");
-  const scrollerContent = scroller.querySelector("div.innerScrollArea ul");
-  ILLUSTRATIONS.forEach((item) => {
-    const li = document.createElement("li");
-    li.innerHTML = `<img src="${item.image}" alt="${item.title}" height="400" loading="lazy">`;
-    scrollerContent.appendChild(li);
-  });
+  // const scroller = document.getElementById("scroller");
+  // const scrollerContent = scroller.querySelector("div.innerScrollArea ul");
+  // ILLUSTRATIONS.forEach((item) => {
+  //   const li = document.createElement("li");
+  //   li.innerHTML = `<img src="${item.image}" alt="${item.title}" height="400" loading="lazy">`;
+  //   scrollerContent.appendChild(li);
+  // });
 
   /* ── Fun ── */
   const funGrid = document.getElementById("fun-grid");
