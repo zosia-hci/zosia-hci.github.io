@@ -284,5 +284,26 @@ const FUN = [
     type: "Tunisian Crochet",
     year: 2026,
     images: ["fun/images/sweater_blue.jpeg", "fun/images/sweater_blue_1.jpeg"],
+  },
+  {
+    id: "white-shirt",
+    title: "White Shirt",
+    type: "Crochet",
+    year: 2026,
+    images: ["fun/images/white-shirt.jpeg", "fun/images/white-shirt1.jpeg"],
+  },
+  {
+    id: "brown-shirt",
+    title: "Brown Shirt",
+    type: "Crochet",
+    year: 2026,
+    images: ["fun/images/brown-shirt.jpeg"],
+  },
+  {
+    id: "fleamarket",
+    title: "Flea Market Makes",
+    type: "Crochet/Amigurumi",
+    year: 2025,
+    images: ["fun/images/fleamarket0.jpeg", "fun/images/fleamarket.jpeg","fun/images/fleamarket1.jpeg", "fun/images/fleamarket2.jpeg", "fun/images/fleamarket3.jpeg", "fun/images/fleamarket4.jpeg"],
   }
 ];
