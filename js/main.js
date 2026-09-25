@@ -62,6 +62,85 @@
       .replace(/\n/g, "<br>");
   }
 
+  /* ── Render a _portfolio markdown body as HTML, keeping images inline where they appear ── */
+  function renderProjectBody(markdown, base) {
+    if (!markdown) return "";
+
+    const resolveSrc = (src) => (/^(https?:)?\//i.test(src) ? src : `${base || ""}${src}`);
+
+    const text = String(markdown)
+      .replace(/<iframe[\s\S]*?<\/iframe>/gi, "")
+      .replace(/<div class="d-flex">\s*<\/div>/gi, "")
+      .replace(/^\s*<br>\s*$/gim, "")
+      .replace(/<h[1-6]>\s*(.*?)\s*<\/h[1-6]>/gi, "# $1")
+      .replace(/<img\s+src=['"]([^'"]+)['"][^>]*>/gi, (_match, src) => `<img src="${resolveSrc(src)}" alt="" loading="lazy">`)
+      .replace(/\[(.*?)\]\((https?:\/\/[^)\s]+)\)/g, (_match, label, url) => {
+        const safeLabel = label.replace(/"/g, "&quot;");
+        const safeUrl = url.replace(/"/g, "&quot;");
+        return `<a href="${safeUrl}" target="_blank" rel="noopener" class="text-link">${safeLabel}</a>`;
+      });
+
+    const blocks = [];
+    let paragraph = [];
+    let list = [];
+    let imageRun = [];
+
+    const flushParagraph = () => {
+      if (paragraph.length) blocks.push(`<p>${paragraph.join(" ")}</p>`);
+      paragraph = [];
+    };
+    const flushList = () => {
+      if (list.length) blocks.push(`<ul>${list.map((item) => `<li>${item}</li>`).join("")}</ul>`);
+      list = [];
+    };
+    const flushImages = () => {
+      if (imageRun.length) blocks.push(`<div class="lightbox-images">${imageRun.join("")}</div>`);
+      imageRun = [];
+    };
+
+    text.split("\n").forEach((raw) => {
+      const line = raw.trim();
+      const imageOnly = /^(<img[^>]*>\s*)+$/i.test(line);
+      const h2 = !imageOnly && line.match(/^##\s+(.*)/);
+      const h1 = !imageOnly && !h2 && line.match(/^#\s+(.*)/);
+      const bullet = !imageOnly && line.match(/^\*\s+(.*)/);
+
+      if (!line) {
+        flushParagraph();
+        flushList();
+        flushImages();
+      } else if (imageOnly) {
+        flushParagraph();
+        flushList();
+        imageRun.push(line);
+      } else if (h2) {
+        flushParagraph();
+        flushList();
+        flushImages();
+        blocks.push(`<h5>${h2[1]}</h5>`);
+      } else if (h1) {
+        flushParagraph();
+        flushList();
+        flushImages();
+        blocks.push(`<h4>${h1[1]}</h4>`);
+      } else if (bullet) {
+        flushParagraph();
+        flushImages();
+        list.push(bullet[1]);
+      } else if (list.length) {
+        list[list.length - 1] += ` ${line}`;
+      } else {
+        flushImages();
+        paragraph.push(line);
+      }
+    });
+    flushParagraph();
+    flushList();
+    flushImages();
+
+    return blocks.join("\n");
+  }
+
   /* ── Populate hero ── */
   document.getElementById("hero-title").textContent = SITE.title;
   document.getElementById("hero-tagline").textContent = SITE.tagline;
@@ -132,7 +211,7 @@
     card.className = `project-card${project.featured ? " featured" : ""}`;
     card.innerHTML = `
       <div class="project-thumb">
-        <img src="${project.image}" alt="" loading="lazy">
+        <img src="${project.images[0]}" alt="" loading="lazy">
       </div>
       <div class="project-body">
         <div class="project-tags">
@@ -187,9 +266,11 @@
         ${project.tags.map((t) => `<span class="project-tag">${t}</span>`).join("")}
       </div>
       <p>${project.description}</p>
-      <div class="lightbox-images">
-        <img src="${project.image}" alt="${project.title}">
-      </div>
+      ${
+        project.body
+          ? `<div class="lightbox-body">${renderProjectBody(project.body, project.base)}</div>`
+          : `<div class="lightbox-images">${project.images.map((src) => `<img src="${src}" alt="${project.title}" loading="lazy">`).join("")}</div>`
+      }
       <p class="lightbox-team">Team: ${project.team}</p>
     `);
   }
