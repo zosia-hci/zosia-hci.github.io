@@ -590,6 +590,8 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
   border-radius: var(--radius);
   overflow: hidden;
   cursor: pointer;
+  position: relative;
+  aspect-ratio: 1/1;
   transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
 }
 
@@ -601,14 +603,13 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
 
 .project-card.featured {
   border-color: transparent;
-  background: var(--bg-soft);
 }
 
 .project-thumb {
-  aspect-ratio: 16/10;
+  position: absolute;
+  inset: 0;
   overflow: hidden;
   background: var(--bg-soft);
-  position: relative;
 }
 
 .project-thumb img {
@@ -627,7 +628,13 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
 }
 
 .project-body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   padding: 1rem 1.15rem 1.15rem;
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--border);
 }
 
 .project-tags {
@@ -655,6 +662,16 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
   font-weight: 500;
   line-height: 1.35;
   color: var(--text);
+  transition: color var(--transition);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: calc(1.35em * 2);
+}
+
+.project-card:hover .project-title {
+  color: var(--accent);
 }
 
 /* ── Fun grid ── */
