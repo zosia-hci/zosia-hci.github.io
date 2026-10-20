@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sport Temperature Blanket</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css?v=20261021">
+  <script>
+    /* Follow the site's saved theme (main.js isn't loaded here) */
+    (function () {
+      let theme = null;
+      try { theme = localStorage.getItem("theme"); } catch (e) {}
+      document.documentElement.setAttribute("data-theme", theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+    })();
+  </script>
+</head>
+<body>
+  <!-- The full view on its own, for trying things out; the site opens the same thing from the hero photo -->
+  <div class="bl-frame" id="blanket">
+    <div class="bl-top">
+      <a class="bl-back" href="../index.html" aria-label="Back to the site" style="display:flex;align-items:center;justify-content:center;text-decoration:none">&larr;</a>
+      <h1 class="bl-title">my digital sport-activity temperature blanket</h1>
+    </div>
+    <p class="bl-sub">My digital crochet: temperature scarf of my activity. I love crochet, bouldering, and rest. I was peer-pressured to bike in Switzerland.</p>
+    <div class="bl-controls">
+      <div class="bl-levels" data-bl="levels" role="group" aria-label="View">
+        <button type="button" data-level="all" aria-pressed="true">All</button>
+        <button type="button" data-level="scarf" aria-pressed="false">Scarf</button>
+        <button type="button" data-level="month" aria-pressed="false">Month</button>
+      </div>
+      <div class="bl-nav" data-bl="nav">
+        <button type="button" data-bl="prev" aria-label="Previous month">&lsaquo;</button>
+        <span data-bl="range" aria-live="polite"></span>
+        <button type="button" data-bl="next" aria-label="Next month">&rsaquo;</button>
+      </div>
+    </div>
+    <div class="bl-slot"><div class="bl-stage" data-bl="stage"></div></div>
+    <p class="bl-hint" data-bl="hint"></p>
+    <div class="bl-below">
+      <div>
+        <div class="bl-panel-title" data-bl="stats-title">In view</div>
+        <div data-bl="stats"></div>
+      </div>
+      <div>
+        <div class="bl-panel-title">Yarn key</div>
+        <div class="bl-key" data-bl="key"></div>
+      </div>
+    </div>
+    <p class="bl-hint" id="sample" hidden>Showing made-up sample data, because data/sports.json has no data yet.</p>
+  </div>
+
+  <script src="../js/blanket.js?v=20261021"></script>
+  <script>
+    Blanket.load("../data/sports.json", { sample: true }).then((data) => {
+      document.getElementById("sample").hidden = !data.sample;
+      const blanket = Blanket.mount(document.getElementById("blanket"), data);
+      // Say hello once the rows have appeared
+      setTimeout(() => blanket.wave(), 2600);
+    });
+  </script>
+</body>
+</html>

@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20260811">
+  <link rel="stylesheet" href="css/style.css?v=20261021">
 </head>
 <body>
   <header class="site-header">
@@ -49,8 +49,22 @@
     <section id="about" class="section hero">
       <div class="container hero-grid">
         <div class="hero-visual">
-          <div class="avatar-wrap">
-            <img src="images/profile-pic.jpg" alt="Zosia Marciniak" class="avatar" width="320" height="420">
+          <div class="avatar-wrap flip-card" id="flip-card">
+            <div class="flip-inner">
+              <div class="flip-face flip-front">
+                <img src="images/profile-pic.jpg" alt="Zosia Marciniak" class="avatar" width="320" height="420">
+              </div>
+              <div class="flip-face flip-back" aria-hidden="true">
+                <div class="bl-stage" data-bl="stage"></div>
+                <div class="flip-legend" aria-hidden="true"></div>
+                <button type="button" class="flip-explore">explore my scarf →</button>
+              </div>
+            </div>
+            <svg class="flip-arm" aria-hidden="true"></svg>
+            <span class="flip-hint" aria-hidden="true">psst… flip me</span>
+            <button type="button" class="flip-badge" aria-pressed="false" aria-label="Flip my photo to see the digital me">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg>
+            </button>
           </div>
           <div class="hero-links" id="hero-links"></div>
         </div>
@@ -137,6 +151,45 @@
     </div>
   </footer>
 
+  <!-- Digital temperature blanket, full screen (opened from the back of the hero photo) -->
+  <div class="bl-overlay" id="bl-overlay" role="dialog" aria-modal="true" aria-labelledby="bl-title" hidden>
+    <div class="bl-frame">
+      <div class="bl-chrome">
+        <div class="bl-top">
+          <button type="button" class="bl-back" aria-label="Back to the page">&larr;</button>
+          <h2 class="bl-title" id="bl-title">my digital sport-activity temperature blanket</h2>
+        </div>
+        <p class="bl-sub">My digital crochet: temperature scarf of my activity. I love crochet, bouldering, and rest. I was peer-pressured to bike in Switzerland.</p>
+        <div class="bl-controls">
+          <div class="bl-levels" data-bl="levels" role="group" aria-label="View">
+            <button type="button" data-level="all" aria-pressed="true">Me</button>
+            <button type="button" data-level="scarf" aria-pressed="false">Scarf</button>
+            <button type="button" data-level="month" aria-pressed="false">Rows</button>
+          </div>
+          <div class="bl-nav" data-bl="nav">
+            <button type="button" data-bl="prev" aria-label="Previous month">&lsaquo;</button>
+            <span data-bl="range" aria-live="polite"></span>
+            <button type="button" data-bl="next" aria-label="Next month">&rsaquo;</button>
+          </div>
+        </div>
+      </div>
+      <div class="bl-slot"><div class="bl-stage" data-bl="stage"></div></div>
+      <div class="bl-chrome">
+        <p class="bl-hint" data-bl="hint"></p>
+        <div class="bl-below">
+          <div>
+            <div class="bl-panel-title" data-bl="stats-title">In view</div>
+            <div data-bl="stats"></div>
+          </div>
+          <div>
+            <div class="bl-panel-title">Yarn key</div>
+            <div class="bl-key" data-bl="key"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Lightbox -->
   <dialog class="lightbox" id="lightbox">
     <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
@@ -145,6 +198,8 @@
 
   <script src="js/content.js?v=20260811"></script>
   <script src="js/main.js?v=20260811"></script>
+  <script src="js/blanket.js?v=20261021"></script>
+  <script src="js/hero-blanket.js?v=20261021"></script>
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/scroller.js"></script>
 </body>
