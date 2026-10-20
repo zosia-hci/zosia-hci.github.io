@@ -42,9 +42,17 @@
     (window.requestIdleCallback || ((f) => setTimeout(f, 1500)))(mountFull);
 
     /* ═══ Flip ═══ */
+    // The card always turns the same way: every flip adds another half turn
     let flipped = false;
+    let turn = 0;
+    let landing = null; // the wave waits until the card has landed on the drawing
     function flip(to = !flipped) {
+      if (to === flipped) return;
       flipped = to;
+      turn += 180;
+      inner.style.setProperty("--flip", `${turn}deg`);
+      clearTimeout(landing);
+      card.classList.remove("landed");
       inner.style.transition = "";
       inner.style.removeProperty("--tilt-x");
       inner.style.removeProperty("--tilt-y");
@@ -53,7 +61,11 @@
       back.setAttribute("aria-hidden", String(!flipped));
       badge.setAttribute("aria-pressed", String(flipped));
       badge.setAttribute("aria-label", flipped ? "Flip back to my photo" : "Flip my photo to see the digital me");
-      if (flipped) setTimeout(() => { mini.refresh(); mini.wave(); }, FLIP_MS * 0.75);
+      if (flipped) {
+        landing = setTimeout(() => { card.classList.add("landed"); mini.refresh(); mini.wave(); }, FLIP_MS);
+      } else {
+        mini.stopWave();
+      }
     }
     front.addEventListener("click", () => flip(true));
     badge.addEventListener("click", (e) => { e.stopPropagation(); flip(); });

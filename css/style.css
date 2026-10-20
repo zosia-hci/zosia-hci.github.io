@@ -837,7 +837,6 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
   transform: rotateX(var(--tilt-x, 0deg)) rotateY(calc(var(--tilt-y, 0deg) + var(--flip, 0deg)));
   transition: transform 0.9s cubic-bezier(0.65, 0, 0.35, 1);
 }
-.flip-card.flipped .flip-inner { --flip: 180deg; }
 .flip-face {
   position: absolute;
   inset: 0;
@@ -861,7 +860,9 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
   pointer-events: none;
   z-index: 1;
 }
-.flip-card:not(.flipped) .flip-arm { visibility: hidden; }
+/* The arm doesn't turn with the card, so it only shows once the drawing has landed facing you */
+.flip-card:not(.flipped) .flip-arm,
+.flip-card:not(.landed) .flip-arm { visibility: hidden; }
 
 .flip-badge,
 .flip-hint,
@@ -913,8 +914,8 @@ a { color: var(--accent); text-decoration: none; transition: color var(--transit
 .flip-card.nudge .flip-badge { animation: flip-pulse 1.8s ease 0.2s; }
 @keyframes flip-peek {
   0%, 100% { transform: rotateY(0deg); }
-  35% { transform: rotateY(-34deg); }
-  60% { transform: rotateY(-22deg); }
+  35% { transform: rotateY(34deg); }  /* the same way the card flips */
+  60% { transform: rotateY(22deg); }
 }
 @keyframes flip-pulse {
   0%, 100% { box-shadow: var(--shadow-lg), 0 0 0 0 rgba(208, 70, 63, 0.45); }

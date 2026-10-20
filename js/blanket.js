@@ -317,6 +317,11 @@
       }, fringe);
     }
 
+    // Stop a wave mid-way (e.g. the card is flipped back to the photo)
+    function stopWave() {
+      [fig, armLayer].forEach((root) => root && root.querySelectorAll(".bl-wave").forEach((a) => { try { a.endElement(); } catch (e) { /* not running */ } }));
+    }
+
     function wave() {
       if (REDUCED) return;
       [fig, armLayer].forEach((root) => root && root.querySelectorAll(".bl-wave").forEach((a) => { try { a.beginElement(); } catch (e) { /* not rendered yet */ } }));
@@ -847,6 +852,7 @@
     return {
       zoomTo,
       wave,
+      stopWave,
       get level() { return level; },
       refresh() { measure(); apply(); },
       // Pixels kept free above the figure; the full-screen view eases this from the card's value to 0
